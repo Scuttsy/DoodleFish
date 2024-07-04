@@ -20,6 +20,8 @@ public class SeagullController : MonoBehaviour
     public SpriteRenderer Belly;
 
     public Transform Head;
+    public float LookRadius;
+    public float EatRadius;
     public SpriteRenderer HeadSprite;
     public List<Sprite> HeadSprites;
 
@@ -74,13 +76,27 @@ public class SeagullController : MonoBehaviour
         if (transform.position.x < -25 || transform.position.x > 15)
             Destroy(gameObject);
 
-        Vector2 v = Head.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,10));
-        float angle = (Mathf.Rad2Deg * Mathf.Atan2(v.y,v.x)) - 72;
-        angle = angle < 0 ? angle + 360 : angle;
-        int resultIndex = (int)(angle / 72);
+        Collider2D fishy = Physics2D.OverlapCircle(Head.transform.position, LookRadius);
+        if (fishy)
+        {
+            Vector2 v = Head.position - fishy.transform.position;
+            float angle = (Mathf.Rad2Deg * Mathf.Atan2(v.y, v.x)) - 72;
+            angle = angle < 0 ? angle + 360 : angle;
+            int resultIndex = (int)(angle / 72);
 
-        HeadSprite.sprite = HeadSprites[resultIndex];
-        HeadSprite.flipX = (resultIndex == 1 || resultIndex == 3);
+            HeadSprite.sprite = HeadSprites[resultIndex];
+            HeadSprite.flipX = (resultIndex == 1 || resultIndex == 3);
+            if (v.magnitude < EatRadius)
+            {
+                fishy.GetComponent<FishController>().Eat();
+            }
+        } else
+        {
+
+        }
+
+
+        
     }
 
     public void CatchSeagull(Transform AnchorPoint)
