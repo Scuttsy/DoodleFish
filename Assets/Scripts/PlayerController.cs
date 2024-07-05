@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _fireForce = 10f;
     [SerializeField] private GameObject _cannonRope;
 
-
     //Public variables
     public bool CanFire = true;
 
@@ -29,22 +28,40 @@ public class PlayerController : MonoBehaviour
     //private variables
     private float _fireCooldowntimer = 0;
 
+    public bool IsControllingCannon
+    {
+        get
+        {
+            return Camera.main.transform.position.y > _cannonTransform.position.y;
+        }
+    }
+
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-
-        _cannonTransform.Rotate(new Vector3(0,0, -horizontal * _rotateSpeed * Time.deltaTime));
-
-        if (Input.GetKeyDown(_fire) && CanFire)
-            Fire();
-        
-
-        if (_fireCooldowntimer < _fireCooldown)
+        //test camera swap
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            _fireCooldowntimer += Time.deltaTime;
-            if (_fireCooldown < _fireCooldowntimer)
-                CanFire = true;
-            
+            if (CameraController.CameraState == CameraController.state.Cannon)
+                CameraController.CameraState = CameraController.state.Fishing;
+            else 
+                CameraController.CameraState = CameraController.state.Cannon;
+        }
+
+        if (IsControllingCannon)
+        {
+            float horizontal = Input.GetAxis("Horizontal");
+
+            _cannonTransform.Rotate(new Vector3(0,0, -horizontal * _rotateSpeed * Time.deltaTime));
+
+            if (Input.GetKeyDown(_fire) && CanFire)
+                Fire();
+
+            if (_fireCooldowntimer < _fireCooldown)
+            {
+                _fireCooldowntimer += Time.deltaTime;
+                if (_fireCooldown < _fireCooldowntimer)
+                    CanFire = true; 
+            }
         }
     }
 

@@ -174,14 +174,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 6951733028232108311}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ff7cd12c1cb23a41bf23853fcdc5de8, type: 3}
+  m_Script: {fileID: 11500000, guid: 45f52fc7b69d626428db0724b1954f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 4
   _anchorPoint: {fileID: 0}
   IsRoaming: 1
   HitPoints: 10
-  NumFishes: 0
+  NumFishes: 2
+  Fatness: 0.56
+  BellySprites: []
+  Belly: {fileID: 0}
+  Head: {fileID: 0}
+  LookRadius: 0
+  EatRadius: 0
+  HeadSprite: {fileID: 0}
+  HeadSprites: []
+  Legs: {fileID: 0}
+  LegPositions: []
+  Neck: {fileID: 0}
+  NeckPositions: []
+  Wing1: {fileID: 0}
+  Wing1Positions: []
+  Wing2: {fileID: 0}
+  Wing2Positions: []
+  resultAngle: 0
 --- !u!54 &4910740608584605230
 Rigidbody:
   m_ObjectHideFlags: 0

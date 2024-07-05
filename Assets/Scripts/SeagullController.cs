@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,8 @@ public class SeagullController : MonoBehaviour
     public int HitPoints = 10;
     public int NumFishes = 0;
     //internal
+
+    [Header("Skyla's section")]
     [Range(0f, 3f)]
     public float Fatness = 0;
     public List<Sprite> BellySprites = new List<Sprite>();
@@ -64,39 +67,51 @@ public class SeagullController : MonoBehaviour
             Destroy(gameObject);
 
 
-        if (Fatness < 3)
-        {
-            int intFatness = Mathf.FloorToInt(Fatness);
-            Belly.sprite = BellySprites[intFatness];
-            Legs.transform.position = LegPositions[intFatness].position;
-            Neck.transform.position = NeckPositions[intFatness].position;
-            Wing1.transform.position = Wing1Positions[intFatness].position;
-            Wing2.transform.position = Wing2Positions[intFatness].position;
-        }
-        if (transform.position.x < -25 || transform.position.x > 15)
-            Destroy(gameObject);
+        //if (Fatness < 3)
+        //{
+        //    int intFatness = Mathf.FloorToInt(Fatness);
+        //    Belly.sprite = BellySprites[intFatness];
+        //    Legs.transform.position = LegPositions[intFatness].position;
+        //    Neck.transform.position = NeckPositions[intFatness].position;
+        //    Wing1.transform.position = Wing1Positions[intFatness].position;
+        //    Wing2.transform.position = Wing2Positions[intFatness].position;
+        //}
+        //else
+        //{
+        //    Explode();
+        //}
+        //if (transform.position.x < -25 || transform.position.x > 15)
+        //    Destroy(gameObject);
 
-        Collider2D fishy = Physics2D.OverlapCircle(Head.transform.position, LookRadius);
-        if (fishy)
-        {
-            Vector2 v = Head.position - fishy.transform.position;
-            float angle = (Mathf.Rad2Deg * Mathf.Atan2(v.y, v.x)) - 72;
-            angle = angle < 0 ? angle + 360 : angle;
-            int resultIndex = (int)(angle / 72);
+        //Collider2D fishy = Physics2D.OverlapCircle(Head.transform.position, LookRadius);
+        //if (fishy)
+        //{
+        //    Vector2 v = Head.position - fishy.transform.position;
+        //    float angle = (Mathf.Rad2Deg * Mathf.Atan2(v.y, v.x)) - 72;
+        //    angle = angle < 0 ? angle + 360 : angle;
+        //    int resultIndex = (int)(angle / 72);
 
-            HeadSprite.sprite = HeadSprites[resultIndex];
-            HeadSprite.flipX = (resultIndex == 1 || resultIndex == 3);
-            if (v.magnitude < EatRadius)
-            {
-                fishy.GetComponent<FishController>().Eat();
-            }
-        } else
-        {
+        //    HeadSprite.sprite = HeadSprites[resultIndex];
+        //    HeadSprite.flipX = (resultIndex == 1 || resultIndex == 3);
+        //    if (v.magnitude < EatRadius)
+        //    {
+        //        fishy.GetComponent<FishController>().Eat();
+        //    }
+        //} else
+        //{
 
-        }
+        //}
 
 
         
+    }
+
+    private void Explode()
+    {
+        ////
+        ///current seagul destroyed
+        ///Exploding seagull instantiated
+        ///Seagull parts fly in all directions (handled in exploding seagull prefab)
     }
 
     public void CatchSeagull(Transform AnchorPoint)
