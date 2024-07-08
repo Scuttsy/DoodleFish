@@ -35,10 +35,13 @@ public class UIManager : MonoBehaviour
                 {
                     _oxygenTimer = 0;
                     if (_numPoppedBubbles < _bubbles.Count)
-                    _bubbles[_bubbles.Count - 1 - _numPoppedBubbles].GetComponent<Image>().enabled = false;
+                    {
+                        _bubbles[_bubbles.Count - 1 - _numPoppedBubbles].GetComponent<Image>().enabled = false;
+                        _numPoppedBubbles++;
+                    }
                     else
                     {
-                        Debug.Log("Seagull died");
+                        //seagull dies
                     }
                 }
             }

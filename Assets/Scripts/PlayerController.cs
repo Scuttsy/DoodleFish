@@ -49,10 +49,11 @@ public class PlayerController : MonoBehaviour
 
         if (IsControllingCannon)
         {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos = _cannonTransform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            _cannonTransform.LookAt(mousePos);
-
+            //_cannonTransform.LookAt(new Vector3(mousePos.x, mousePos.y, 0));
+            //_cannonTransform.LookAt(mousePos);
+            _cannonTransform.rotation = Quaternion.Euler(0, 0, MathF.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg - 90);    
             if (Input.GetKeyDown(_fire) && CanFire)
                 Fire();
 

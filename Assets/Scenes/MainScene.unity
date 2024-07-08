@@ -1118,6 +1118,12 @@ MonoBehaviour:
   _maxWorldHeight: {fileID: 1328669856}
   _minWorldHeight: {fileID: 162871637}
   _trackedSeagull: {fileID: 719579568}
+  _bubbles:
+  - {fileID: 731132268}
+  - {fileID: 825191731}
+  - {fileID: 1903848095}
+  - {fileID: 1361413750}
+  - {fileID: 1371108097}
   _timeBetweenPop: 2
 --- !u!4 &725973797
 Transform:

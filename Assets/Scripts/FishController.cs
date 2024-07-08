@@ -1,19 +1,55 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class FishController : MonoBehaviour
 {
-    public float EatValue;
+    public enum FishState
+    {
+        Roaming,
+        Chasing
+    }
 
+    public float EatValue;
     public float Speed;
+    [SerializeField] private  int AngerLimit;
+    public int AngerValue; // Thew angrier the fish the larger the aggro range
+
+
+    public FishState State = FishState.Roaming;
 
     private void Update()
     {
-        Vector3 v = ( Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10)) - transform.position).normalized;
+        switch (State)
+        {
+            case FishState.Roaming:
+                Roam();
+                break;
+            case FishState.Chasing:
+                Chase();
+                break;
+            default:
+                break; 
+        }
 
+        if (transform.position.x < -25 || transform.position.x > 15)
+            Destroy(gameObject);
+
+        Vector3 v = ( Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10)) - transform.position).normalized;
         transform.position += v * Speed * Time.deltaTime;
         
+    }
+
+    private void Chase()
+    {
+        //Put Fish aggro in here
+    }
+
+    private void Roam()
+    {
+        transform.position += transform.right * Speed * Time.deltaTime;
     }
 
     public void Eat()
