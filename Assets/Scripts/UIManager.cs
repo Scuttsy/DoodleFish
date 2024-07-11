@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -21,6 +22,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private float _timeBetweenPop = 2f;
     private float _oxygenTimer = 0;
     private int _numPoppedBubbles = 0;
+
+    [Header("Score")]
+    [SerializeField] private int _goalScore = 15;
+    [SerializeField] private int _currentScore = 0; //fish returned to the basket
+    [SerializeField] private Transform _goalSlider;
+
 
     void Update()
     {
@@ -46,6 +53,8 @@ public class UIManager : MonoBehaviour
                 }
             }
         }
+
+        _goalSlider.transform.localScale = new Vector3(1 + _currentScore / _goalScore, 1, 1);
     }
 
     private void DrawSeagullHead()
