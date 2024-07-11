@@ -37,8 +37,8 @@ public class FishController : MonoBehaviour
         if (transform.position.x < -25 || transform.position.x > 15)
             Destroy(gameObject);
 
-        Vector3 v = ( Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10)) - transform.position).normalized;
-        transform.position += v * Speed * Time.deltaTime;
+        //Vector3 v = ( Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10)) - transform.position).normalized;
+        //transform.position += v * Speed * Time.deltaTime;
         
     }
 

@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f52fc7b69d626428db0724b1954f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0
+  _speed: 2
   _anchorPoint: {fileID: 0}
   IsRoaming: 1
   HitPoints: 10
