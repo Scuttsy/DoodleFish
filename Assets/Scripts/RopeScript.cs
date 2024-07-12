@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class RopeScript : MonoBehaviour
 {
-    public Vector2 mousePos;
     public GameObject RopePiecePrefab;
-    private Rigidbody rb;
+    public GameObject DavePrefab;
 
     private GameObject LastRopePiece
     {
@@ -19,25 +18,34 @@ public class RopeScript : MonoBehaviour
     }
 
     public int Strength = 6000;
+    public float ReturnStrength = 2.5f;
 
-    List<GameObject> ropePieces = new List<GameObject>();
-    HingeJoint ropeJoint;
-    bool isStopped;
+    public float snapDst = .4f;
+
+    public List<GameObject> ropePieces = new List<GameObject>();
+    bool isStopped = true;
 
     public int MaxPieces = 10;
 
-    private void Start()
+    private void Awake()
     {
-        ropeJoint = GetComponent<HingeJoint>();
-        rb = GetComponent<Rigidbody>();
+        //GameObject dave = Instantiate(RopePiecePrefab, transform.position,
+        //            Quaternion.Euler(0, 0, 0), transform);
+        //dave.GetComponent<Rigidbody>().isKinematic = true;
+        //ropePieces.Add(dave);
     }
-
     private void Update()
     {
+        if (LastRopePiece)
+        {
+            Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position,ropePieces[0].transform.position,.4f) - Vector3.forward * 10;
+        }
+
+
         if (isStopped && Input.GetMouseButton(1) && LastRopePiece)
         {
             Vector3 moveVector = transform.position - LastRopePiece.transform.position;
-            LastRopePiece.transform.position += moveVector.normalized * Time.deltaTime;
+            LastRopePiece.transform.position += moveVector.normalized * Time.deltaTime * ReturnStrength;
             Vector3 v = transform.position - LastRopePiece.transform.position;
             if (v.magnitude < .2f)
             {
@@ -46,42 +54,54 @@ public class RopeScript : MonoBehaviour
                 Destroy(piece);
                 if(ropePieces.Count >= 1)
                     LastRopePiece.GetComponent<Rigidbody>().isKinematic = true;
+                for (int i = 1; i < ropePieces.Count - 1; i++)
+                {
+                    ropePieces[i].GetComponent<Rigidbody>().velocity = Vector3.zero;
+                }
             }
         }
 
 
-        if (Input.GetMouseButtonDown(0) && ropePieces.Count == 0)
+        if (ropePieces.Count == 0)
         {
-            isStopped = false;
-            ropePieces.Clear();
             Vector3 LaunchDirection = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
-            mousePos = Vector3.zero + LaunchDirection;
             LaunchDirection.Normalize();
-            GameObject newRopePiece = Instantiate(RopePiecePrefab, transform.position,
-                    Quaternion.Euler(0, 0, Mathf.Atan2(LaunchDirection.y, LaunchDirection.x) * Mathf.Rad2Deg - 90), transform.GetChild(0));
-
-            Destroy(newRopePiece.GetComponent<HingeJoint>());
-            newRopePiece.GetComponent<Rigidbody>().AddForce(-LaunchDirection * Strength, ForceMode.Force);
             
-            ropePieces.Add(newRopePiece);
-            Debug.Log(ropePieces.Count);
+            
+            if (Input.GetMouseButtonDown(0))
+            {
+                isStopped = false;
+                GameObject newRopePiece = Instantiate(RopePiecePrefab, transform.position, Quaternion.Euler(0, 0,
+                Mathf.Atan2(LaunchDirection.y, LaunchDirection.x) * Mathf.Rad2Deg - 90), transform);
+                Debug.Log("test");
+                ropePieces.Add(newRopePiece);
+                Destroy(LastRopePiece.GetComponent<HingeJoint>());
+                LastRopePiece.GetComponent<Rigidbody>().useGravity = true;
+                LastRopePiece.GetComponent<Rigidbody>().AddForce(-LaunchDirection * Strength, ForceMode.Force);
+
+            }
+            
         }
 
-        if (ropePieces.Count > 0)
+        if (ropePieces.Count > 0 && !isStopped)
         {
             if (ropePieces.Count >= MaxPieces || Input.GetKeyDown(KeyCode.Space))
             {
                 isStopped = true;
                 LastRopePiece.GetComponent<Rigidbody>().isKinematic = isStopped;
-
+                for (int i = 1; i < ropePieces.Count - 1; i++)
+                {
+                    ropePieces[i].GetComponent<Rigidbody>().velocity = Vector3.zero;
+                }
             }
-            else if (!isStopped && LastRopePiece)
+            else if (LastRopePiece)
             {
                 Vector3 v = transform.position - LastRopePiece.transform.position;
-                if (v.magnitude >= 1 && ropePieces.Count < MaxPieces)
+                if (v.magnitude >= snapDst && ropePieces.Count < MaxPieces)
                 {
-                    GameObject newRopePiece = Instantiate(RopePiecePrefab, LastRopePiece.transform.position + (v.normalized * .4f),
-                        Quaternion.Euler(0, 0, Mathf.Atan2(v.y, v.x) * Mathf.Rad2Deg - 90), transform.GetChild(0));
+
+                    GameObject newRopePiece = Instantiate(RopePiecePrefab, transform.position,
+                        Quaternion.Euler(0, 0, Mathf.Atan2(v.y, v.x) * Mathf.Rad2Deg - 90), transform);
                     newRopePiece.GetComponent<HingeJoint>().connectedBody = LastRopePiece.GetComponent<Rigidbody>();
                     ropePieces.Add(newRopePiece);
                 }

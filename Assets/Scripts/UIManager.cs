@@ -60,7 +60,7 @@ public class UIManager : MonoBehaviour
     private void DrawSeagullHead()
     {
         float height = map(_trackedSeagull.position.y, _maxWorldHeight.position.y, _minWorldHeight.position.y, _maxUIHeight.position.y, _minUIHeight.position.y);
-        height = Math.Clamp(height, 0, 1);
+        //height = Math.Clamp(height, 0, 1);
         _seagullIcon.position = new Vector3(_seagullIcon.position.x, height);
     }
 
