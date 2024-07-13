@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 9d8188ab3c647df40855499ac32c3d35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1352
+        width: 713
+        height: 1616
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c29401222e176b4ab9c9725d6a30f5d
+      internalID: 928796816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1198
+        width: 485
+        height: 1758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.50784, y: 879}
+        - {x: -242.5, y: 879}
+        - {x: -242.5, y: -824.4608}
+        - {x: -240.61714, y: -867.42957}
+        - {x: -219.13277, y: -879}
+        - {x: 56.257843, y: -879}
+        - {x: 242.5, y: -732.66394}
+        - {x: 242.5, y: -66.64836}
+        - {x: 204.69533, y: 99.367256}
+      - - {x: 222.27345, y: -773.67957}
+        - {x: 116.80471, y: -830.3202}
+        - {x: 105.08596, y: -853.7577}
+        - {x: 101.17971, y: -879}
+        - {x: 242.5, y: -879}
+        - {x: 242.5, y: -775.6327}
+        - {x: 235.94533, y: -773.67957}
+      - - {x: 191.02345, y: 818.11725}
+        - {x: 93.36722, y: 773.1954}
+        - {x: 93.36722, y: 402.10162}
+        - {x: 153.9141, y: 339.60162}
+        - {x: 208.60158, y: 339.60162}
+        - {x: 228.13283, y: 353.2735}
+        - {x: 242.5, y: 370.85162}
+        - {x: 242.5, y: 818.11725}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f4abf88d49e514f8a2265f884bd315
+      internalID: 1150162209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_2
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 841
+        width: 694
+        height: 2127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68f5de85a3fa99458861d23b0c9ef40
+      internalID: -148019189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_3
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1347
+        width: 713
+        height: 1601
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.343609, y: -726.242}
+        - {x: -47.78111, y: -726.242}
+        - {x: -73.17173, y: -737.96075}
+        - {x: -88.79673, y: -757.492}
+        - {x: -88.79673, y: -800.46075}
+        - {x: 92.84389, y: -800.46075}
+        - {x: 92.84389, y: -788.742}
+        - {x: 63.547012, y: -763.3514}
+      - - {x: -12.624859, y: 800.5}
+        - {x: -284.10922, y: 748.36725}
+        - {x: -356.37485, y: 480.78915}
+        - {x: -356.37485, y: -128.58582}
+        - {x: 20.578264, y: -646.1639}
+        - {x: 227.6095, y: -800.46075}
+        - {x: 356.5, y: -800.46075}
+        - {x: 356.5, y: -507.49203}
+        - {x: 356.5, y: 785.4766}
+        - {x: 331.12512, y: 800.5}
+      - - {x: -166.92172, y: -68.03894}
+        - {x: -241.14047, y: -38.742065}
+        - {x: -323.17172, y: -38.742065}
+        - {x: -323.17172, y: -726.242}
+        - {x: -321.2186, y: -757.492}
+        - {x: -205.98422, y: -757.492}
+        - {x: -120.04673, y: -718.4295}
+        - {x: -53.640484, y: -573.8983}
+        - {x: -53.640484, y: -362.9608}
+      - - {x: -0.90610975, y: 222.97667}
+        - {x: -10.671734, y: 230.78917}
+        - {x: -51.68736, y: 230.78917}
+        - {x: -59.49986, y: 234.69542}
+        - {x: -71.218605, y: 236.64854}
+        - {x: -75.124855, y: 240.5548}
+        - {x: -71.218605, y: 248.3673}
+        - {x: -69.26548, y: 254.22667}
+        - {x: -69.26548, y: 260.08606}
+        - {x: -67.312355, y: 262.03918}
+        - {x: -63.406105, y: 277.66418}
+        - {x: -61.45298, y: 279.6173}
+        - {x: -61.45298, y: 293.28918}
+        - {x: -55.59361, y: 299.14856}
+        - {x: -51.68736, y: 297.19543}
+        - {x: -41.921734, y: 297.19543}
+        - {x: -34.109234, y: 305.00793}
+        - {x: -34.109234, y: 306.96106}
+        - {x: -38.015484, y: 310.8673}
+        - {x: -38.015484, y: 316.72668}
+        - {x: -43.87486, y: 322.58603}
+        - {x: -43.87486, y: 324.53915}
+        - {x: -38.015484, y: 334.30478}
+        - {x: -38.015484, y: 342.11728}
+        - {x: -49.734234, y: 351.8829}
+        - {x: -57.546734, y: 351.8829}
+        - {x: -53.640484, y: 357.74228}
+        - {x: -53.640484, y: 371.41415}
+        - {x: -55.59361, y: 375.3204}
+        - {x: -51.68736, y: 377.27353}
+        - {x: -45.827984, y: 383.1329}
+        - {x: -24.343609, y: 383.1329}
+        - {x: -22.390484, y: 381.17978}
+        - {x: -12.624859, y: 381.17978}
+        - {x: -6.7654843, y: 385.08603}
+        - {x: 8.859515, y: 385.08603}
+        - {x: 20.578264, y: 392.89853}
+        - {x: 22.53139, y: 400.71103}
+        - {x: 32.297012, y: 408.52353}
+        - {x: 40.109512, y: 426.10165}
+        - {x: 40.109512, y: 431.96103}
+        - {x: 45.968887, y: 435.86728}
+        - {x: 49.875137, y: 445.6329}
+        - {x: 49.875137, y: 451.49228}
+        - {x: 53.781387, y: 455.39853}
+        - {x: 53.781387, y: 467.11728}
+        - {x: 63.547012, y: 476.8829}
+        - {x: 63.547012, y: 478.83603}
+        - {x: 73.31264, y: 486.64853}
+        - {x: 77.21889, y: 494.46103}
+        - {x: 83.07826, y: 502.27353}
+        - {x: 85.03139, y: 502.27353}
+        - {x: 100.65639, y: 515.94543}
+        - {x: 102.60951, y: 515.94543}
+        - {x: 110.42201, y: 521.8048}
+        - {x: 116.28139, y: 513.9923}
+        - {x: 114.32826, y: 512.0392}
+        - {x: 114.32826, y: 506.17978}
+        - {x: 112.37514, y: 504.22665}
+        - {x: 112.37514, y: 500.3204}
+        - {x: 108.46889, y: 492.5079}
+        - {x: 108.46889, y: 471.02353}
+        - {x: 114.32826, y: 461.2579}
+        - {x: 114.32826, y: 455.39853}
+        - {x: 118.23451, y: 447.58603}
+        - {x: 118.23451, y: 441.72665}
+        - {x: 124.09389, y: 433.91415}
+        - {x: 124.09389, y: 428.05478}
+        - {x: 128.00014, y: 420.24228}
+        - {x: 128.00014, y: 396.80478}
+        - {x: 126.04701, y: 394.85165}
+        - {x: 126.04701, y: 383.1329}
+        - {x: 124.09389, y: 381.17978}
+        - {x: 122.14076, y: 363.60165}
+        - {x: 118.23451, y: 355.78915}
+        - {x: 118.23451, y: 346.02353}
+        - {x: 116.28139, y: 344.0704}
+        - {x: 116.28139, y: 336.2579}
+        - {x: 114.32826, y: 334.30478}
+        - {x: 114.32826, y: 318.6798}
+        - {x: 110.42201, y: 312.82043}
+        - {x: 110.42201, y: 306.96106}
+        - {x: 108.46889, y: 305.00793}
+        - {x: 108.46889, y: 299.14856}
+        - {x: 100.65639, y: 295.2423}
+        - {x: 96.75014, y: 295.2423}
+        - {x: 86.98451, y: 285.47668}
+        - {x: 86.98451, y: 281.57043}
+        - {x: 79.17201, y: 269.85168}
+        - {x: 77.21889, y: 269.85168}
+        - {x: 73.31264, y: 265.94543}
+        - {x: 59.640762, y: 265.94543}
+        - {x: 57.687637, y: 267.89856}
+        - {x: 51.828262, y: 267.89856}
+        - {x: 45.968887, y: 265.94543}
+        - {x: 36.203262, y: 254.22667}
+        - {x: 26.43764, y: 252.27354}
+        - {x: 16.672014, y: 242.50792}
+        - {x: 16.672014, y: 236.64854}
+        - {x: 18.62514, y: 234.69542}
+        - {x: 10.812639, y: 226.88292}
+        - {x: 8.859515, y: 226.88292}
+        - {x: 1.0470152, y: 221.02354}
+        - {x: -4.81236, y: 221.02354}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0431c7659f30ef743ab124521e492ced
+      internalID: 1820414063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_4
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1181
+        width: 484
+        height: 1757
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e90760cc54654444ad96805115904c1
+      internalID: -1689737726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_5
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 823
+        width: 694
+        height: 2127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f0920540a41874695179c56fc30915
+      internalID: 1849268909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_6
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 2105
+        width: 246
+        height: 835
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5da24f17a1934f4fba05473a81482bc
+      internalID: -756307680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_7
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 1334
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12570b53fa407b34d88a235392c80877
+      internalID: 1500806274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 694
+        width: 629
+        height: 723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df11b5f5ae89094d8a6f4c8ed6127d0
+      internalID: 2080847700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_9
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 1218
+        width: 246
+        height: 836
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e2d897c491ecc4dbe27a5200acaec8
+      internalID: -130441079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 474
+        width: 246
+        height: 836
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82345e036d7c9bd459ceccdf735a27b3
+      internalID: -92616704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1034
+        width: 465
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4440259e2c232c0469fdbc4675f38e47
+      internalID: -315555361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_12
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 577
+        width: 631
+        height: 723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56be1b4ec0078246a8a3b3f4163a2b6
+      internalID: 310187755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_13
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1149
+        width: 105
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc685bd1635ca3a4fa74263b78c00eae
+      internalID: 936779397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_14
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 559
+        width: 265
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a645a2cfae9154b8751183c14a5fc0
+      internalID: 363928334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_15
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 326
+        width: 246
+        height: 835
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef97b0094d6d62e4b96461c78c69b4c5
+      internalID: -1750370411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 296
+        width: 629
+        height: 723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b0894091c27c642ab0712ef8ad9c82
+      internalID: 2093335191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_17
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 509
+        width: 212
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97496bba33e52a428d2f7504fca9c33
+      internalID: -1445279821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_18
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 22
+        width: 631
+        height: 723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0dbfcd991b90f45bb63d2a7f82b569
+      internalID: 1306582201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_19
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 614
+        width: 213
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b726829d62d074ba0139aa1fa8be69
+      internalID: -2011646931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_20
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 304
+        width: 264
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6354503b5ec094ab70a7d32113dc57
+      internalID: -1689227646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_21
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 720
+        width: 373
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fca48b44ccd2134f8c90bef7979cc08
+      internalID: -1882870133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_22
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 480
+        width: 463
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e52342c6a036a4b8154e64cdf3b742
+      internalID: 991405919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_23
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 431
+        width: 465
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ece78f560c87e4394191657eff1280
+      internalID: -1821965636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_24
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 401
+        width: 211
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee780f400ec5b9408a90d752bd8cd68
+      internalID: -638182546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_25
+      rect:
+        serializedVersion: 2
+        x: 3702
+        y: 565
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4787b69280bfac49be460e0c0bbc418
+      internalID: 976115996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_26
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 519
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffced9485d69cf4e8a38727ea827ad0
+      internalID: -1296351991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_27
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 243
+        width: 211
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4654eab4ec7940a0244853dba5fe2
+      internalID: 603504580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_28
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 349
+        width: 105
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf9f29f5e1713f4fabebcf3f90367cd
+      internalID: 759066608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_29
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 440
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae86b7231a8e64a4885a4cc8f833b6f4
+      internalID: 973237164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_30
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 356
+        width: 106
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c044c08eea19fa4a8a9e237b4d5fecb
+      internalID: 788439295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_31
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 40
+        width: 372
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc94caaae60c7449b19eb3c7d8e921c
+      internalID: 1623247680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_32
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 22
+        width: 371
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb4ed4e0c27cbd4b90618173dcb0577
+      internalID: 956038562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_33
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 22
+        width: 371
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7839c125eac3947b975d092dd6e4be
+      internalID: -376375589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_34
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 15
+        width: 373
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cfa57d55563564fbf90e756e0a1b60
+      internalID: -1785546041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_35
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 22
+        width: 373
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febdeac185bda6f459f8dbea2acb73ae
+      internalID: -1630203136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_36
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 228
+        width: 182
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2706c53827393b34981ad0210ad076dc
+      internalID: 1435560125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_37
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 105
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db1229786ac6ed4aa52a52259816281
+      internalID: -392073179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_38
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 24
+        width: 465
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea056db2759a24fa15999708694db1
+      internalID: -1302061609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_39
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 28
+        width: 211
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3307a7573aeba3b4d922718aea66e412
+      internalID: -1084274101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_40
+      rect:
+        serializedVersion: 2
+        x: 3765
+        y: 28
+        width: 211
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b9c942ca355304cab616916dc3066c
+      internalID: -536768242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 34
+        width: 312
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b972d7bbc9d144b8e5ee768901c7f6
+      internalID: 55262766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_42
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 38
+        width: 106
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273c9f349d395074fa87ff2d4fdefdd3
+      internalID: -948269556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_43
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 21
+        width: 105
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a5b8c514c2b3647b109301d1ee709b
+      internalID: 1145926485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_44
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 31
+        width: 107
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e7881e24f2b3d4089657b76bbc4d8d
+      internalID: -1751108504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IMG_Sprite_Corals_0: 928796816
+      IMG_Sprite_Corals_1: 1150162209
+      IMG_Sprite_Corals_10: -92616704
+      IMG_Sprite_Corals_11: -315555361
+      IMG_Sprite_Corals_12: 310187755
+      IMG_Sprite_Corals_13: 936779397
+      IMG_Sprite_Corals_14: 363928334
+      IMG_Sprite_Corals_15: -1750370411
+      IMG_Sprite_Corals_16: 2093335191
+      IMG_Sprite_Corals_17: -1445279821
+      IMG_Sprite_Corals_18: 1306582201
+      IMG_Sprite_Corals_19: -2011646931
+      IMG_Sprite_Corals_2: -148019189
+      IMG_Sprite_Corals_20: -1689227646
+      IMG_Sprite_Corals_21: -1882870133
+      IMG_Sprite_Corals_22: 991405919
+      IMG_Sprite_Corals_23: -1821965636
+      IMG_Sprite_Corals_24: -638182546
+      IMG_Sprite_Corals_25: 976115996
+      IMG_Sprite_Corals_26: -1296351991
+      IMG_Sprite_Corals_27: 603504580
+      IMG_Sprite_Corals_28: 759066608
+      IMG_Sprite_Corals_29: 973237164
+      IMG_Sprite_Corals_3: 1820414063
+      IMG_Sprite_Corals_30: 788439295
+      IMG_Sprite_Corals_31: 1623247680
+      IMG_Sprite_Corals_32: 956038562
+      IMG_Sprite_Corals_33: -376375589
+      IMG_Sprite_Corals_34: -1785546041
+      IMG_Sprite_Corals_35: -1630203136
+      IMG_Sprite_Corals_36: 1435560125
+      IMG_Sprite_Corals_37: -392073179
+      IMG_Sprite_Corals_38: -1302061609
+      IMG_Sprite_Corals_39: -1084274101
+      IMG_Sprite_Corals_4: -1689737726
+      IMG_Sprite_Corals_40: -536768242
+      IMG_Sprite_Corals_41: 55262766
+      IMG_Sprite_Corals_42: -948269556
+      IMG_Sprite_Corals_43: 1145926485
+      IMG_Sprite_Corals_44: -1751108504
+      IMG_Sprite_Corals_5: 1849268909
+      IMG_Sprite_Corals_6: -756307680
+      IMG_Sprite_Corals_7: 1500806274
+      IMG_Sprite_Corals_8: 2080847700
+      IMG_Sprite_Corals_9: -130441079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
