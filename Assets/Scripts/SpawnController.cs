@@ -5,9 +5,7 @@ using UnityEngine.UIElements;
 
 public class SpawnController : MonoBehaviour
 {
-    [Header("Seagulls")]
-    [SerializeField] private Transform[] _spawnPositionss;
-    [SerializeField] private GameObject _spawnPrefab;
+
 
     [Header("Fish")]
     [SerializeField] private Transform[] _fishSpawnPositions;
@@ -24,8 +22,6 @@ public class SpawnController : MonoBehaviour
         if (_spawnTimer > _spawnDelay)
         {
             _spawnTimer = 0;
-            //spawn seagull
-            SpawnEntitiy(_spawnPositionss, _spawnPrefab);
 
             //spawn Fish
             SpawnEntitiy(_fishSpawnPositions, _fishPrefabs[Random.Range(0, _fishPrefabs.Count)]);

@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1341238266, guid: d9869ac9ab0a9624ba16d7bf8738ac5f, type: 3}
+  m_Sprite: {fileID: -15246333, guid: d9869ac9ab0a9624ba16d7bf8738ac5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,9 +94,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6890822878833556033}
   - component: {fileID: 7000393201458018574}
-  - component: {fileID: 5883647203867479667}
+  - component: {fileID: 422554101976775191}
   m_Layer: 7
-  m_Name: Fish0
+  m_Name: Fish5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,10 +133,10 @@ MonoBehaviour:
   Speed: 0.8
   AngerValue: 0
   State: 0
-  AngerLimit: 2
+  AngerLimit: 1
   _roamStepDistance: 8
-  _fish: {fileID: 11400000, guid: 69d6184b78f923c4aa51ff1c29940962, type: 2}
---- !u!135 &5883647203867479667
+  _fish: {fileID: 11400000, guid: 8181262215293724788299286ea5248b, type: 2}
+--- !u!135 &422554101976775191
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

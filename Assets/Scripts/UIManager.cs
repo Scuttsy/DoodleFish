@@ -2,13 +2,14 @@ using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     [Header("DepthSlider")]
-    public bool isSeagullCaptive = true;
+    public bool isSeagullCaptive = false;
     [SerializeField] private RectTransform _seagullIcon;
     [SerializeField] private RectTransform _maxUIHeight;
     [SerializeField] private RectTransform _minUIHeight;
@@ -24,11 +25,29 @@ public class UIManager : MonoBehaviour
     private int _numPoppedBubbles = 0;
 
     [Header("Score")]
-    [SerializeField] private int _goalScore = 15;
-    [SerializeField] private int _currentScore = 0; //fish returned to the basket
+    [SerializeField] private int _goalScore;
     [SerializeField] private Transform _goalSlider;
 
+    public static int CurrentScore = 0; //fish returned to the basket
+    public static List<Fish> Fishies = new List<Fish>();
 
+    public static int TotalHeldFish
+    {
+        get
+        {
+            int score = 0;
+            for (int i = 0; i < Fishies.Count; i++)
+            {
+                score += Fishies[i].EatValue;
+            }
+            return score;
+        }
+    }
+
+    private void Start()
+    {
+        _goalScore = FishController.NumFish;
+    }
     void Update()
     {
         if (isSeagullCaptive)
@@ -54,7 +73,7 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        _goalSlider.transform.localScale = new Vector3(1 + _currentScore / _goalScore, 1, 1);
+        _goalSlider.transform.localScale = new Vector3(1 + CurrentScore / _goalScore, 1, 1);
     }
 
     private void DrawSeagullHead()

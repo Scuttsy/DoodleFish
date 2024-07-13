@@ -57,6 +57,7 @@ public class RopeScript : MonoBehaviour
             Vector3 LaunchDirection = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
             mousePos = Vector3.zero + LaunchDirection;
             LaunchDirection.Normalize();
+            Debug.Log(transform.position);
             GameObject newRopePiece = Instantiate(RopePiecePrefab, transform.position,
                     Quaternion.Euler(0, 0, Mathf.Atan2(LaunchDirection.y, LaunchDirection.x) * Mathf.Rad2Deg - 90), transform.GetChild(0));
 
@@ -87,6 +88,11 @@ public class RopeScript : MonoBehaviour
                 }
             }
             
+        }
+
+        if (ropePieces.Count == 0 && UIManager.CurrentScore > 0)
+        {
+            CameraController.CameraState = CameraController.state.Smacking;
         }
         
     } 
