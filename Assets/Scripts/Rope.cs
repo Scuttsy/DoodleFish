@@ -8,12 +8,15 @@ public class Rope : MonoBehaviour
 {
     public Rigidbody2D Hook;
     public GameObject RopePrefab;
+    public GameObject KnotPrefab;
     
     public List<GameObject> Ropes = new List<GameObject>();
 
     public int NumOfLinks = 10;
 
-    private HingeJoint2D _top;
+    public HingeJoint2D Top;
+
+    private float _nextInput = 0;
 
     private void Start()
     {
@@ -22,12 +25,14 @@ public class Rope : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) && Time.time > _nextInput)
         {
+            _nextInput = Time.time + 0.5f;
             AddLink();
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) && Ropes.Count > 1 && Time.time > _nextInput)
         {
+            _nextInput = Time.time + 0.5f;
             RemoveLink();
         }
     }
@@ -42,7 +47,9 @@ public class Rope : MonoBehaviour
         HingeJoint2D hj = newPiece.GetComponent<HingeJoint2D>();
         hj.connectedBody = Hook;
 
-        _top.connectedBody = newPiece.GetComponent<Rigidbody2D>();
+        Top.connectedBody = newPiece.GetComponent<Rigidbody2D>();
+
+        Top = hj;
 
     }
     private void RemoveLink()
@@ -50,8 +57,13 @@ public class Rope : MonoBehaviour
         HingeJoint2D newTop = Ropes[Ropes.Count - 2].GetComponent<HingeJoint2D>();
         newTop.connectedBody = Hook;
         newTop.gameObject.transform.position = Hook.gameObject.transform.position;
-        Destroy(Ropes[Ropes.Count - 1]);
-        Ropes.RemoveAt(Ropes.Count - 1);
+        Top = newTop;
+
+        GameObject removeRope = Ropes[Ropes.Count - 1];
+        Ropes.Remove(removeRope);
+        Destroy(removeRope);
+
+
     }
 
     private void GenerateRope()
@@ -61,14 +73,22 @@ public class Rope : MonoBehaviour
         {
             GameObject newPiece = Instantiate(RopePrefab);
             newPiece.transform.parent = transform;
-            newPiece.transform.position = transform.position + i * Vector3.down;
+            newPiece.transform.position = transform.position;
+            newPiece.transform.GetChild(0).position += Vector3.forward * i * 0.01f;
             Ropes.Add(newPiece);
             HingeJoint2D hj = newPiece.GetComponent<HingeJoint2D>();
             hj.connectedBody = prevBod;
             if (Hook == prevBod)
-                _top = hj;
+                Top = hj;
 
             prevBod = newPiece.GetComponent<Rigidbody2D>();
         }
+        GameObject knot = Instantiate(KnotPrefab);
+        knot.transform.parent = transform;
+        knot.transform.position = transform.position;
+        Ropes.Add(knot);
+        knot.GetComponent<HingeJoint2D>().connectedBody = prevBod;
+
+        Ropes.Reverse();
     }
 }

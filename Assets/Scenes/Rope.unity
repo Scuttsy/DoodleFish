@@ -168,9 +168,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3044994d433feb64da474ee2e324d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hook: {fileID: 0}
-  RopePrefab: {fileID: 0}
-  NumOfLinks: 10
+  Hook: {fileID: 1328662533}
+  RopePrefab: {fileID: 4851588867454067999, guid: 93a5476cd23e2ab4cb98cd761aa913a5, type: 3}
+  KnotPrefab: {fileID: 4851588867454067999, guid: d986e68f9323d7943bce1e8938324340, type: 3}
+  Ropes: []
+  NumOfLinks: 1
+  Top: {fileID: 0}
 --- !u!1 &1301862161
 GameObject:
   m_ObjectHideFlags: 0

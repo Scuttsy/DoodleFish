@@ -1,0 +1,3327 @@
+fileFormatVersion: 2
+guid: a4256521b2693a94ea1f62029c36da94
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_0
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 2831
+        width: 149
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a45e86c55902f54faf23d5b423b356d
+      internalID: -1014438229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_1
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 2650
+        width: 305
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc27abd5552e224da77638f53b18e4d
+      internalID: 2423667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_2
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2529
+        width: 426
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e20efbab5ff7b4bb8ad71e62ba5572
+      internalID: 1133242655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_3
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 2357
+        width: 562
+        height: 601
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2073034f004f9e6439e5f28968f850a7
+      internalID: -1098018613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_4
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 2835
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483a767f17863424e978213c266773c6
+      internalID: -354595471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2722
+        width: 167
+        height: 216
+      alignment: 9
+      pivot: {x: 0.3898312, y: 0.2610903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ca6f6bd2121df478d4296a1c093a9e
+      internalID: 1856378649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2724
+        width: 167
+        height: 216
+      alignment: 9
+      pivot: {x: 0.38983154, y: 0.26316777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcb2a14b658f9c43a4b99eec32f433e
+      internalID: 2146409827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2725
+        width: 167
+        height: 216
+      alignment: 9
+      pivot: {x: 0.39789256, y: 0.2610903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95791c815e8d5de4ead5b779cfb40e87
+      internalID: -917704822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_9
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2497
+        width: 210
+        height: 434
+      alignment: 9
+      pivot: {x: 0.3980678, y: 0.12917008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3861776ed6a11b4e8e3a10f594b912c
+      internalID: -516532927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_10
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 2843
+        width: 150
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf60f4da31167f4288055f4a3acb0ab
+      internalID: 224350204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_11
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 2845
+        width: 151
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b064e716c3447704cbf762d0c61ccfd3
+      internalID: -1791547581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_12
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 2845
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b4515a18963cf4d9a46ff478ca6ef8
+      internalID: -876238251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_13
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 2384
+        width: 240
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733170bcc1eee9044aceaa1a1ad6eb17
+      internalID: -478258398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_15
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2722
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6e01688a9160140929b0c9758ef26b
+      internalID: -310105115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_16
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 2724
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6d9dc76bd3b0e49bbe9f39e0128c1f
+      internalID: -1561681160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_17
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 2638
+        width: 99
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec2413e15664ff469fc2ff32a3cbce4
+      internalID: 983459527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_18
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 2607
+        width: 161
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f4f8c09c9b746409133954cfde1558
+      internalID: -1464543813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_20
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 2607
+        width: 185
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adabca0218b223146b07f4bb07f81877
+      internalID: 1661169085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_22
+      rect:
+        serializedVersion: 2
+        x: 3818
+        y: 2607
+        width: 161
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6652865846be50640b4d2cf0b8052a02
+      internalID: -553993663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_25
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2481
+        width: 117
+        height: 188
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.6193458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ecf1722369d1243ae5803a233cdfad
+      internalID: -1946849503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2481
+        width: 117
+        height: 188
+      alignment: 9
+      pivot: {x: 0.5271061, y: 0.6097996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa18439bb08e124d89d27800818d1fc
+      internalID: 1317508491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_27
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2481
+        width: 117
+        height: 188
+      alignment: 9
+      pivot: {x: 0.46440658, y: 0.6074115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9776d3994df3e3f48b5be23bd454a666
+      internalID: 722611724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_28
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 2583
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0044e5952c3bbab4cb241fae50e1c794
+      internalID: -730152661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_29
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2587
+        width: 95
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27a2854231352940a1912cab574da71
+      internalID: 1120596805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_30
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 2360
+        width: 236
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c4f7ddcd14edc48b856c28bfe45074
+      internalID: 1321804332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_31
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 2425
+        width: 99
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3aadf801cb6ad49a90e130803bff27
+      internalID: -167616532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_33
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2466
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ec80c1b0bfc844d901999a0c7537ec
+      internalID: 1676187393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_34
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2462
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4007550aa404ce48beed11b1e873da6
+      internalID: -236638158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_36
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 2386
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53810bdc774083f4db2b587c63442f91
+      internalID: -1203021023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_37
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 2386
+        width: 173
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503db08b54d90fb4c812a68453302779
+      internalID: 718496749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_39
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 2386
+        width: 158
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0557b613ceba90e46a27a62e90ebffdb
+      internalID: 1604873323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_41
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2296
+        width: 105
+        height: 123
+      alignment: 9
+      pivot: {x: 0.47008404, y: 0.27745688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c30eec5656ab7b4386497e4bd5a8747
+      internalID: 89062675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_42
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2257
+        width: 109
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5205848, y: 0.32002658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9697aac4d5e5f449456c5063f3e55c
+      internalID: -1643054591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_44
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2353
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c6e598f22b9c347a3bf84112708339
+      internalID: 515139909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_45
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2355
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb51f40d01fdff45a912714a09d8640
+      internalID: 463697020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_46
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 2356
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658be02eea1be8a438a40c2c7b97bba1
+      internalID: 251002400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_47
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 2093
+        width: 351
+        height: 349
+      alignment: 9
+      pivot: {x: 0.26337454, y: 0.8613002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85780fb068525c1408c754db0c8a78df
+      internalID: 284272110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_48
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2321
+        width: 309
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d3780cc75a4f841aae5474530c7e95
+      internalID: 1098773902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_49
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2286
+        width: 105
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4444429, y: 0.31302896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bf718c79f69c44494b2c4f5ce8a282
+      internalID: -1212554471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_50
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2274
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e5d3a87524f74886f86509d8cda59
+      internalID: 1564941619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_51
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 2274
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4618482bef03f674bbe1d654bee6cf70
+      internalID: -1162938130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_52
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2272
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4021ad4344131f48abc4e667432f0a7
+      internalID: 626735746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_53
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 1599
+        width: 752
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74584c044fe92ef41bb46c943083878a
+      internalID: 597612521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_54
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 2241
+        width: 200
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab94e54ed58230f4896416857ba294b1
+      internalID: 470373128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_55
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 2171
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9187baa255940b42aa4bf8bd1b2e092
+      internalID: -437945945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_56
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 2159
+        width: 195
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab3053f7c6e60d40994b3a367c05832
+      internalID: -1771666790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_57
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 2171
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486dc362aa6b59e4aa6a39ac4ab1343d
+      internalID: -386184296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_59
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1583
+        width: 695
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248974893da4fed40837b30286d109f2
+      internalID: -1077446759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_60
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2267
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20688cf58c5aed944bb6ee84258715d7
+      internalID: -605294380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_61
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2077
+        width: 101
+        height: 175
+      alignment: 9
+      pivot: {x: 0.46094114, y: 0.22667132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f418f6d74552fb418b7d3e78a00fc4d
+      internalID: 1367064874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_62
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2075
+        width: 143
+        height: 172
+      alignment: 9
+      pivot: {x: 0.35861653, y: 0.22763842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbd817d3c33c5b4482ae11d9074012a
+      internalID: 378315777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_63
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 2220
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d1cfa8f4a918f41a0eb1effa2c0fb7
+      internalID: 1336037753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_65
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 2079
+        width: 99
+        height: 143
+      alignment: 9
+      pivot: {x: 0.4651329, y: 0.26206192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810d57158f1dff54fb4a5b287b8c687d
+      internalID: -1957576380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_66
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1866
+        width: 262
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6e796504314f7418868cfd1b1bd3f9
+      internalID: -1647826015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_67
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 2091
+        width: 200
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e75ff0a4a789241b36c6611f5ae76f
+      internalID: 789739755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_72
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1870
+        width: 330
+        height: 180
+      alignment: 9
+      pivot: {x: 0.8706617, y: 0.5209744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb822a57093e7ad4bbcfd876f154bb21
+      internalID: -291142946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_73
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 1877
+        width: 359
+        height: 189
+      alignment: 9
+      pivot: {x: 0.048196353, y: 0.32427558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e132fa80c7a345857c006d91504a0
+      internalID: 47873558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_75
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1878
+        width: 143
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf3a112692bd004ea64d90717a9cdd8
+      internalID: -1127864039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_76
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1878
+        width: 172
+        height: 160
+      alignment: 9
+      pivot: {x: 0.58314127, y: 0.49075317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3f40ea10b849d48b7ad72242808356
+      internalID: -2101708694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_77
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1880
+        width: 142
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5138902, y: 0.45993346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751dbaa0547a053429c987b20f73914c
+      internalID: -83094140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_79
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1901
+        width: 232
+        height: 121
+      alignment: 9
+      pivot: {x: 0.063685976, y: 0.30555713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605abda7e629ed84d8eb39ed491d4534
+      internalID: 1006666077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_82
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1911
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.23631635, y: 0.35951853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3b3c881ba588944b1dd185233f6359
+      internalID: 566932420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_84
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 1905
+        width: 168
+        height: 92
+      alignment: 9
+      pivot: {x: 0.17786372, y: 0.34537143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d35d37739ec774faea30923bfc6529
+      internalID: -1303482387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_88
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1550
+        width: 145
+        height: 242
+      alignment: 9
+      pivot: {x: 0.52365637, y: 0.15450318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4cf4362f7aedf48b798f77df71be02
+      internalID: -806222242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_89
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1560
+        width: 140
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5091882, y: 0.1992784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d41afb3362a3c44abb8b9ee1241019
+      internalID: -1407404001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_90
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1540
+        width: 139
+        height: 246
+      alignment: 9
+      pivot: {x: 0.51233876, y: 0.2124098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a79f581a6bf1b499a33302309fcc7b
+      internalID: 794665960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_91
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1540
+        width: 292
+        height: 254
+      alignment: 9
+      pivot: {x: 0.8102952, y: 0.20570914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f166f5cd19532a438edc6a5fedf3acb
+      internalID: -1920232537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_92
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1614
+        width: 363
+        height: 182
+      alignment: 9
+      pivot: {x: 0.14639527, y: 0.4958523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0927f625c795a4f9cf7fd3a6896ac6
+      internalID: -1054898943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_93
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 1562
+        width: 211
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d19d9cc6350c143b6b7e16afa3cb38
+      internalID: -1258820393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_95
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 1552
+        width: 213
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adfa0a834ebc624c83c076e0f8deefc
+      internalID: -1151621938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_97
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 1560
+        width: 207
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7659284f38fd5f4abf437540ae7d865
+      internalID: -361670313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_99
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1337
+        width: 194
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c379559026f954e9f5e5d672eba7a7
+      internalID: 93437533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_100
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1313
+        width: 139
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87838e37092b18469c1c2ff350dbfe8
+      internalID: 792075704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_101
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1325
+        width: 99
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f0f3c0cbca534469621234fdff06ed
+      internalID: -540334399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_102
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1324
+        width: 118
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272fbd2b8430d8043ba6baeb3dc6bcc6
+      internalID: -1991925946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_103
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1419
+        width: 518
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1368e223eca54747a59966b1299dd96
+      internalID: -823650509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_104
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1415
+        width: 518
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6ac1f4ce31f8e479f385ad1195997d
+      internalID: 1283159835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_105
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 1417
+        width: 519
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931750af99706ae41889127f4faa2465
+      internalID: 558044573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_106
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1448
+        width: 984
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74273361d382f64b8eb37cc6d2d5520
+      internalID: -1958394325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_107
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1409
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63a47c0c4c57594a9b2a1e477eaa57d
+      internalID: 1748202389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_108
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1376
+        width: 984
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a0d1dd03f82e94995349035c8970a3
+      internalID: 1250009176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_109
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1259
+        width: 518
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80097634461491641add7aacc5606576
+      internalID: 1131756229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_110
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1263
+        width: 518
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e3bcfae672d26488ba057b84346c60
+      internalID: 1410817278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_111
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 1265
+        width: 520
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00838a61d2de6e4ea64b60ec0aba1a3
+      internalID: -1243171132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_112
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1295
+        width: 984
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c13bdab13e31b24f903f32b74d78823
+      internalID: -1907763736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_113
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1144
+        width: 154
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35d5135830d51143937cec778a6f15c
+      internalID: 1097469931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_114
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1148
+        width: 149
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fd263e83e5e9241a7558154ceceb24
+      internalID: 2002044124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_115
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1136
+        width: 64
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3943ee33b71779a4b9bedc703c47ee82
+      internalID: 1782917528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_116
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1150
+        width: 116
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2263d60a88e6e8a418b5dd54b37fb5d1
+      internalID: 1883175988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_117
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 9
+        width: 1822
+        height: 1199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a3c7f35d8c77d4d91c3938bc5cf07f
+      internalID: 2069915205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_118
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1206
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d203bb9fb42b5ea469d1d42cf9684ee2
+      internalID: -1161531133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_119
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 1044
+        width: 682
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b748ea00b614824e816c6536734a023
+      internalID: -1659795065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_120
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 345
+        width: 213
+        height: 916
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35287de7ce20d240ac46fafe5063b32
+      internalID: -1381901699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_122
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 941
+        width: 147
+        height: 163
+      alignment: 9
+      pivot: {x: 0.2064811, y: 0.6051048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db00f10310ee92940b542f347777e101
+      internalID: 794704031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_123
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1056
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d0e217296ad1c4aa2a2d9ca10a823e
+      internalID: -568217176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_124
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1046
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f3c73574aacaf42a41a4ecf66f5a18
+      internalID: -208520725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_126
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 974
+        width: 119
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4f7a98c3e227348a369c5fdc614b9d
+      internalID: 75556211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_127
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 993
+        width: 146
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a09fef9fdfd3d542b951a655353e867
+      internalID: -930350216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_130
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 946
+        width: 116
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78e2da8723d96242ac113edfe06142e
+      internalID: -1970628159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_131
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 813
+        width: 682
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e36b304ed8af043ac1747f7d43cae7
+      internalID: -692395282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_132
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 696
+        width: 138
+        height: 203
+      alignment: 9
+      pivot: {x: 0.18882021, y: 0.8857503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a74221a927a8f94c9dbf933798a7d4b
+      internalID: -618211946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_133
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 688
+        width: 75
+        height: 233
+      alignment: 9
+      pivot: {x: 0.44386515, y: 0.85415214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60270e49332c10f41b84358c9a1b9215
+      internalID: -1524805919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_134
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 685
+        width: 93
+        height: 240
+      alignment: 9
+      pivot: {x: 0.6267543, y: 0.86838126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a980ddd45daa78458bded9b8e9fcb50
+      internalID: 270122665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_135
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 774
+        width: 159
+        height: 152
+      alignment: 9
+      pivot: {x: 0.79126287, y: 0.8102156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf45c166ef29b294b99765fc0488b75d
+      internalID: -1720718690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_136
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 610
+        width: 570
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ccd9c48dca1d645899fed171027817
+      internalID: 1284336764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_137
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 466
+        width: 172
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c868f20c99a28f041be78fcb3aa10ee9
+      internalID: -44469357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_138
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 478
+        width: 127
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75539533ad202245965aa40082eab47
+      internalID: -2146513368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_139
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 480
+        width: 109
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d757755643fe45b848379aee614f2
+      internalID: -589916759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_140
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 472
+        width: 202
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a81c7ac08eba74982cc3d6068d26b8
+      internalID: 2062316927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_141
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 604
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406cfe96cd8afb54f88173d92564635d
+      internalID: 148151113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_142
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 586
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54877013773037949b76a2d4127bb065
+      internalID: -790971334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_143
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 317
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fb6755b258c6e4db32f285073c8dbe
+      internalID: -1491572500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_144
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 317
+        width: 70
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a616e6df3a9c14e85a628ad06d8ab3
+      internalID: 546279240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_145
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 317
+        width: 72
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53aa37080ba3cb4ab8bd476bc8241c8
+      internalID: -1207224867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_146
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 313
+        width: 71
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea7a0542551d2648b96bb974be26112
+      internalID: 102319388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_147
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 404
+        width: 570
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47555615449e13540b2d5aa646fc5eec
+      internalID: -458041036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_148
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 312
+        width: 61
+        height: 89
+      alignment: 9
+      pivot: {x: 0.11350138, y: 0.08372309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9740589760825ab4b96052b8e268cb80
+      internalID: 1784671618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_149
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 338
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9a70132800cb1418e05f8c668deccc
+      internalID: 881178751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_150
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 323
+        width: 85
+        height: 73
+      alignment: 9
+      pivot: {x: 0.14338164, y: 0.1539662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95bb177e12e82f459a7efaeb26e10a0
+      internalID: -1665096456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_151
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 296
+        width: 252
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d120c24cc5c6b498450c398e6c96dc
+      internalID: -813857594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_152
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 224
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46d9b9b23710504fbf79fe220c42688
+      internalID: -1749794367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_153
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 224
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a336edb96f71448b3f59f5f79dc6f4
+      internalID: -1378434977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_154
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 226
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c8219b821de21409dcfa221beaafe6
+      internalID: -1297859637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_155
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 226
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deeee780236cdc4bb9da6dae7537512
+      internalID: -797792336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_156
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 52
+        width: 146
+        height: 218
+      alignment: 9
+      pivot: {x: 0.102061234, y: 0.554074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5127c0d7ed615f4aa9083be53a8d2cc
+      internalID: -1218850615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_157
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 177
+        width: 127
+        height: 95
+      alignment: 9
+      pivot: {x: 0.18175837, y: 0.4911356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f7039fd9272784386ec7e78fab51f0
+      internalID: 31951509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_158
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 44
+        width: 259
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647b9f25f6cc1be458d74f777b7bd52c
+      internalID: -1260193537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_159
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 220
+        width: 301
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49956e2a56168747ac98df978982a9e
+      internalID: 921814098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_160
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 128
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb0be5ff34af9d42930b3ae745aaedd
+      internalID: -783401378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_161
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 128
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25b8d4bac3e7214fa3aed3b03683095
+      internalID: 402381963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_162
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 128
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7eb7394e3b1344c9c91730a4bab40a
+      internalID: -1192551092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_163
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 128
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f803fde2fa1688b4cb294e6e90ad349e
+      internalID: -1078084407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_164
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 157
+        width: 125
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843e846c8dd860e4e80f76c95dd4d8b4
+      internalID: 1029341683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_165
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 26
+        width: 316
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be1595d24a6b7e4388dc4c6b3309574
+      internalID: 2070363973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_166
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 103
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdb85761b7b4a64282a1b86da322b41
+      internalID: 1807465821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_167
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 103
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029d27754d28aa94ab91e4b5596510d7
+      internalID: 817746259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_168
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 44
+        width: 132
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462814c490bd6ac46a8fa1ead432b7cd
+      internalID: 1904092702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_169
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 46
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940dc031464a8c84ca97ed6c979b6df7
+      internalID: -226787452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_170
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 44
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717e584f87a26484d8550fb15432e819
+      internalID: -882858697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_171
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 48
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cae68d9979d9914ba16e9570f62a4e4
+      internalID: 1949543658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_172
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 44
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a69c0ca0c3d3e4dac6c0b9494fbd57
+      internalID: -1540711668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_173
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 44
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2a997c1024dee44b13575aad26a76b
+      internalID: 2013685938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_174
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 48
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207f9daf0b6e64b4f98773b42731469b
+      internalID: -1821820181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_UiSeagulBucketsFloaty_175
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 65
+        width: 143
+        height: 28
+      alignment: 9
+      pivot: {x: 0.028942615, y: 0.86085975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b7389c9d353f24a9c3ef7c7aa65494
+      internalID: -1035143200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IMG_Sprite_UiSeagulBucketsFloaty_0: -1014438229
+      IMG_Sprite_UiSeagulBucketsFloaty_1: 2423667
+      IMG_Sprite_UiSeagulBucketsFloaty_10: 224350204
+      IMG_Sprite_UiSeagulBucketsFloaty_100: 792075704
+      IMG_Sprite_UiSeagulBucketsFloaty_101: -540334399
+      IMG_Sprite_UiSeagulBucketsFloaty_102: -1991925946
+      IMG_Sprite_UiSeagulBucketsFloaty_103: -823650509
+      IMG_Sprite_UiSeagulBucketsFloaty_104: 1283159835
+      IMG_Sprite_UiSeagulBucketsFloaty_105: 558044573
+      IMG_Sprite_UiSeagulBucketsFloaty_106: -1958394325
+      IMG_Sprite_UiSeagulBucketsFloaty_107: 1748202389
+      IMG_Sprite_UiSeagulBucketsFloaty_108: 1250009176
+      IMG_Sprite_UiSeagulBucketsFloaty_109: 1131756229
+      IMG_Sprite_UiSeagulBucketsFloaty_11: -1791547581
+      IMG_Sprite_UiSeagulBucketsFloaty_110: 1410817278
+      IMG_Sprite_UiSeagulBucketsFloaty_111: -1243171132
+      IMG_Sprite_UiSeagulBucketsFloaty_112: -1907763736
+      IMG_Sprite_UiSeagulBucketsFloaty_113: 1097469931
+      IMG_Sprite_UiSeagulBucketsFloaty_114: 2002044124
+      IMG_Sprite_UiSeagulBucketsFloaty_115: 1782917528
+      IMG_Sprite_UiSeagulBucketsFloaty_116: 1883175988
+      IMG_Sprite_UiSeagulBucketsFloaty_117: 2069915205
+      IMG_Sprite_UiSeagulBucketsFloaty_118: -1161531133
+      IMG_Sprite_UiSeagulBucketsFloaty_119: -1659795065
+      IMG_Sprite_UiSeagulBucketsFloaty_12: -876238251
+      IMG_Sprite_UiSeagulBucketsFloaty_120: -1381901699
+      IMG_Sprite_UiSeagulBucketsFloaty_121: 766771185
+      IMG_Sprite_UiSeagulBucketsFloaty_122: 794704031
+      IMG_Sprite_UiSeagulBucketsFloaty_123: -568217176
+      IMG_Sprite_UiSeagulBucketsFloaty_124: -208520725
+      IMG_Sprite_UiSeagulBucketsFloaty_125: 1413848325
+      IMG_Sprite_UiSeagulBucketsFloaty_126: 75556211
+      IMG_Sprite_UiSeagulBucketsFloaty_127: -930350216
+      IMG_Sprite_UiSeagulBucketsFloaty_128: 754423803
+      IMG_Sprite_UiSeagulBucketsFloaty_129: -840661752
+      IMG_Sprite_UiSeagulBucketsFloaty_13: -478258398
+      IMG_Sprite_UiSeagulBucketsFloaty_130: -1970628159
+      IMG_Sprite_UiSeagulBucketsFloaty_131: -692395282
+      IMG_Sprite_UiSeagulBucketsFloaty_132: -618211946
+      IMG_Sprite_UiSeagulBucketsFloaty_133: -1524805919
+      IMG_Sprite_UiSeagulBucketsFloaty_134: 270122665
+      IMG_Sprite_UiSeagulBucketsFloaty_135: -1720718690
+      IMG_Sprite_UiSeagulBucketsFloaty_136: 1284336764
+      IMG_Sprite_UiSeagulBucketsFloaty_137: -44469357
+      IMG_Sprite_UiSeagulBucketsFloaty_138: -2146513368
+      IMG_Sprite_UiSeagulBucketsFloaty_139: -589916759
+      IMG_Sprite_UiSeagulBucketsFloaty_14: -974151968
+      IMG_Sprite_UiSeagulBucketsFloaty_140: 2062316927
+      IMG_Sprite_UiSeagulBucketsFloaty_141: 148151113
+      IMG_Sprite_UiSeagulBucketsFloaty_142: -790971334
+      IMG_Sprite_UiSeagulBucketsFloaty_143: -1491572500
+      IMG_Sprite_UiSeagulBucketsFloaty_144: 546279240
+      IMG_Sprite_UiSeagulBucketsFloaty_145: -1207224867
+      IMG_Sprite_UiSeagulBucketsFloaty_146: 102319388
+      IMG_Sprite_UiSeagulBucketsFloaty_147: -458041036
+      IMG_Sprite_UiSeagulBucketsFloaty_148: 1784671618
+      IMG_Sprite_UiSeagulBucketsFloaty_149: 881178751
+      IMG_Sprite_UiSeagulBucketsFloaty_15: -310105115
+      IMG_Sprite_UiSeagulBucketsFloaty_150: -1665096456
+      IMG_Sprite_UiSeagulBucketsFloaty_151: -813857594
+      IMG_Sprite_UiSeagulBucketsFloaty_152: -1749794367
+      IMG_Sprite_UiSeagulBucketsFloaty_153: -1378434977
+      IMG_Sprite_UiSeagulBucketsFloaty_154: -1297859637
+      IMG_Sprite_UiSeagulBucketsFloaty_155: -797792336
+      IMG_Sprite_UiSeagulBucketsFloaty_156: -1218850615
+      IMG_Sprite_UiSeagulBucketsFloaty_157: 31951509
+      IMG_Sprite_UiSeagulBucketsFloaty_158: -1260193537
+      IMG_Sprite_UiSeagulBucketsFloaty_159: 921814098
+      IMG_Sprite_UiSeagulBucketsFloaty_16: -1561681160
+      IMG_Sprite_UiSeagulBucketsFloaty_160: -783401378
+      IMG_Sprite_UiSeagulBucketsFloaty_161: 402381963
+      IMG_Sprite_UiSeagulBucketsFloaty_162: -1192551092
+      IMG_Sprite_UiSeagulBucketsFloaty_163: -1078084407
+      IMG_Sprite_UiSeagulBucketsFloaty_164: 1029341683
+      IMG_Sprite_UiSeagulBucketsFloaty_165: 2070363973
+      IMG_Sprite_UiSeagulBucketsFloaty_166: 1807465821
+      IMG_Sprite_UiSeagulBucketsFloaty_167: 817746259
+      IMG_Sprite_UiSeagulBucketsFloaty_168: 1904092702
+      IMG_Sprite_UiSeagulBucketsFloaty_169: -226787452
+      IMG_Sprite_UiSeagulBucketsFloaty_17: 983459527
+      IMG_Sprite_UiSeagulBucketsFloaty_170: -882858697
+      IMG_Sprite_UiSeagulBucketsFloaty_171: 1949543658
+      IMG_Sprite_UiSeagulBucketsFloaty_172: -1540711668
+      IMG_Sprite_UiSeagulBucketsFloaty_173: 2013685938
+      IMG_Sprite_UiSeagulBucketsFloaty_174: -1821820181
+      IMG_Sprite_UiSeagulBucketsFloaty_175: -1035143200
+      IMG_Sprite_UiSeagulBucketsFloaty_18: -1464543813
+      IMG_Sprite_UiSeagulBucketsFloaty_19: 43151922
+      IMG_Sprite_UiSeagulBucketsFloaty_2: 1133242655
+      IMG_Sprite_UiSeagulBucketsFloaty_20: 1661169085
+      IMG_Sprite_UiSeagulBucketsFloaty_21: 1986459127
+      IMG_Sprite_UiSeagulBucketsFloaty_22: -553993663
+      IMG_Sprite_UiSeagulBucketsFloaty_23: -1976677752
+      IMG_Sprite_UiSeagulBucketsFloaty_24: 122225209
+      IMG_Sprite_UiSeagulBucketsFloaty_25: -1946849503
+      IMG_Sprite_UiSeagulBucketsFloaty_26: 1317508491
+      IMG_Sprite_UiSeagulBucketsFloaty_27: 722611724
+      IMG_Sprite_UiSeagulBucketsFloaty_28: -730152661
+      IMG_Sprite_UiSeagulBucketsFloaty_29: 1120596805
+      IMG_Sprite_UiSeagulBucketsFloaty_3: -1098018613
+      IMG_Sprite_UiSeagulBucketsFloaty_30: 1321804332
+      IMG_Sprite_UiSeagulBucketsFloaty_31: -167616532
+      IMG_Sprite_UiSeagulBucketsFloaty_32: 1180413195
+      IMG_Sprite_UiSeagulBucketsFloaty_33: 1676187393
+      IMG_Sprite_UiSeagulBucketsFloaty_34: -236638158
+      IMG_Sprite_UiSeagulBucketsFloaty_35: -686687520
+      IMG_Sprite_UiSeagulBucketsFloaty_36: -1203021023
+      IMG_Sprite_UiSeagulBucketsFloaty_37: 718496749
+      IMG_Sprite_UiSeagulBucketsFloaty_38: -1942250414
+      IMG_Sprite_UiSeagulBucketsFloaty_39: 1604873323
+      IMG_Sprite_UiSeagulBucketsFloaty_4: -354595471
+      IMG_Sprite_UiSeagulBucketsFloaty_40: 377261300
+      IMG_Sprite_UiSeagulBucketsFloaty_41: 89062675
+      IMG_Sprite_UiSeagulBucketsFloaty_42: -1643054591
+      IMG_Sprite_UiSeagulBucketsFloaty_43: 786067712
+      IMG_Sprite_UiSeagulBucketsFloaty_44: 515139909
+      IMG_Sprite_UiSeagulBucketsFloaty_45: 463697020
+      IMG_Sprite_UiSeagulBucketsFloaty_46: 251002400
+      IMG_Sprite_UiSeagulBucketsFloaty_47: 284272110
+      IMG_Sprite_UiSeagulBucketsFloaty_48: 1098773902
+      IMG_Sprite_UiSeagulBucketsFloaty_49: -1212554471
+      IMG_Sprite_UiSeagulBucketsFloaty_5: -775159950
+      IMG_Sprite_UiSeagulBucketsFloaty_50: 1564941619
+      IMG_Sprite_UiSeagulBucketsFloaty_51: -1162938130
+      IMG_Sprite_UiSeagulBucketsFloaty_52: 626735746
+      IMG_Sprite_UiSeagulBucketsFloaty_53: 597612521
+      IMG_Sprite_UiSeagulBucketsFloaty_54: 470373128
+      IMG_Sprite_UiSeagulBucketsFloaty_55: -437945945
+      IMG_Sprite_UiSeagulBucketsFloaty_56: -1771666790
+      IMG_Sprite_UiSeagulBucketsFloaty_57: -386184296
+      IMG_Sprite_UiSeagulBucketsFloaty_58: 573697584
+      IMG_Sprite_UiSeagulBucketsFloaty_59: -1077446759
+      IMG_Sprite_UiSeagulBucketsFloaty_6: 1856378649
+      IMG_Sprite_UiSeagulBucketsFloaty_60: -605294380
+      IMG_Sprite_UiSeagulBucketsFloaty_61: 1367064874
+      IMG_Sprite_UiSeagulBucketsFloaty_62: 378315777
+      IMG_Sprite_UiSeagulBucketsFloaty_63: 1336037753
+      IMG_Sprite_UiSeagulBucketsFloaty_64: -1630333809
+      IMG_Sprite_UiSeagulBucketsFloaty_65: -1957576380
+      IMG_Sprite_UiSeagulBucketsFloaty_66: -1647826015
+      IMG_Sprite_UiSeagulBucketsFloaty_67: 789739755
+      IMG_Sprite_UiSeagulBucketsFloaty_68: 1593734817
+      IMG_Sprite_UiSeagulBucketsFloaty_69: 385137091
+      IMG_Sprite_UiSeagulBucketsFloaty_7: 2146409827
+      IMG_Sprite_UiSeagulBucketsFloaty_70: 1131223168
+      IMG_Sprite_UiSeagulBucketsFloaty_71: 245788579
+      IMG_Sprite_UiSeagulBucketsFloaty_72: -291142946
+      IMG_Sprite_UiSeagulBucketsFloaty_73: 47873558
+      IMG_Sprite_UiSeagulBucketsFloaty_74: -2092538708
+      IMG_Sprite_UiSeagulBucketsFloaty_75: -1127864039
+      IMG_Sprite_UiSeagulBucketsFloaty_76: -2101708694
+      IMG_Sprite_UiSeagulBucketsFloaty_77: -83094140
+      IMG_Sprite_UiSeagulBucketsFloaty_78: 1613293631
+      IMG_Sprite_UiSeagulBucketsFloaty_79: 1006666077
+      IMG_Sprite_UiSeagulBucketsFloaty_8: -917704822
+      IMG_Sprite_UiSeagulBucketsFloaty_80: -158947803
+      IMG_Sprite_UiSeagulBucketsFloaty_81: 211780783
+      IMG_Sprite_UiSeagulBucketsFloaty_82: 566932420
+      IMG_Sprite_UiSeagulBucketsFloaty_83: 1554746156
+      IMG_Sprite_UiSeagulBucketsFloaty_84: -1303482387
+      IMG_Sprite_UiSeagulBucketsFloaty_85: -299301834
+      IMG_Sprite_UiSeagulBucketsFloaty_86: -261504650
+      IMG_Sprite_UiSeagulBucketsFloaty_87: -1663826641
+      IMG_Sprite_UiSeagulBucketsFloaty_88: -806222242
+      IMG_Sprite_UiSeagulBucketsFloaty_89: -1407404001
+      IMG_Sprite_UiSeagulBucketsFloaty_9: -516532927
+      IMG_Sprite_UiSeagulBucketsFloaty_90: 794665960
+      IMG_Sprite_UiSeagulBucketsFloaty_91: -1920232537
+      IMG_Sprite_UiSeagulBucketsFloaty_92: -1054898943
+      IMG_Sprite_UiSeagulBucketsFloaty_93: -1258820393
+      IMG_Sprite_UiSeagulBucketsFloaty_94: -1540294777
+      IMG_Sprite_UiSeagulBucketsFloaty_95: -1151621938
+      IMG_Sprite_UiSeagulBucketsFloaty_96: 1214512184
+      IMG_Sprite_UiSeagulBucketsFloaty_97: -361670313
+      IMG_Sprite_UiSeagulBucketsFloaty_98: 1511915299
+      IMG_Sprite_UiSeagulBucketsFloaty_99: 93437533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
