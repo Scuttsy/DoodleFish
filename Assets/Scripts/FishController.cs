@@ -9,9 +9,7 @@ using UnityEngine.UIElements;
 public class FishController : MonoBehaviour
 {
     public static int NumFish = 10;
-    
     public float Speed;
-
     public int AngerValue; // Thew angrier the fish the larger the aggro range
     public FishState State = FishState.Roaming;
 
@@ -23,9 +21,10 @@ public class FishController : MonoBehaviour
     [SerializeField] private float _extendThreshold = 2f;
     [SerializeField] private List<Vector3> _bezierPoints = new List<Vector3>();
     [SerializeField] private float _aggroRange = 10f;
+    [SerializeField] private float _aggroSpeedBoost = 2f;
 
     private Vector3 _startingPosition;
-    private Transform _seagullPosition;
+    [SerializeField] private Transform _seagullPosition;
 
     private void Start()
     {
@@ -64,31 +63,37 @@ public class FishController : MonoBehaviour
         if (!_seagullPosition)
         {
             Debug.Log("Seagull not found");
+            State = FishState.Roaming;
             return;
         }
 
-        List<Vector3> points = new List<Vector3>();
-        points.Add(transform.position);
-        for (int i = 1; i < 8; i++)
+        if ((_bezierPoints[0] - transform.position).magnitude < _extendThreshold)
         {
-            points.Add(GetNextPosition(points[i - 1]));
+            _bezierPoints.RemoveAt(0);
+            List<Vector3> points = new List<Vector3>();
+        
+            for (int i = 0; i < 8; i++)
+            {
+                points.Add(GetNextPosition(transform.position));
+            }
+            Vector3 closestToSeagull = points[0];
+            for (int i = 1; i < points.Count; i++)
+            {
+                if ((_seagullPosition.position - closestToSeagull).magnitude > (_seagullPosition.position - points[i]).magnitude)
+                {
+                    closestToSeagull = points[i];
+                }
+            }
+            _bezierPoints.Add(closestToSeagull);
         }
 
-        Vector3 closestToSeagull = points[0];
-        for (int i = 1; i < points.Count; i++)
-        {
-            if ((_seagullPosition.position - closestToSeagull).magnitude > (_seagullPosition.position - points[i]).magnitude)
-            {
-                closestToSeagull = points[i];
-            }
-        }
+
 
         LerpPosition();
     }
 
     private void Roam()
     {
-        //transform.position += transform.right * Speed * Time.deltaTime;
 
         //pick a list of points around the fish and if they aren't occluded then move towards that location at a given speed along a bezier curve
         if ((_bezierPoints[0] - transform.position).magnitude < _extendThreshold)
@@ -103,42 +108,44 @@ public class FishController : MonoBehaviour
 
     private void LerpPosition()
     {
-        Vector3 lerpedPos = Vector3.Lerp(transform.position, _bezierPoints[0], Speed * Time.deltaTime);
-        lerpedPos = Vector3.Lerp(lerpedPos, _bezierPoints[1], Speed * Time.deltaTime);
+        float speed = Speed;
+        if (State == FishState.Chasing)
+            speed = Speed * _aggroSpeedBoost;
+
+        Vector3 lerpedPos = Vector3.Lerp(transform.position, _bezierPoints[0], speed * Time.deltaTime);
+        lerpedPos = Vector3.Lerp(lerpedPos, _bezierPoints[1], speed * Time.deltaTime);
 
         transform.position = lerpedPos;
     }
 
-    private Vector3 GetNextPosition(Vector3 Start)
+    private Vector3 GetNextPosition(Vector3 start)
     {
         int searchLimit = 8;
         float radius = _roamStepDistance;
-        Vector3 position = Start;
+        Vector3 position = start;
 
         if (State == FishState.Chasing)
-            radius = Math.Min(_roamStepDistance, (_seagullPosition.position - Start).magnitude);
+            radius = Math.Min(_roamStepDistance, (_seagullPosition.position - start).magnitude);
         
 
         int searchCount = 0;
         do
         {
             searchCount++;
-            position = new Vector2(Start.x, Start.y) + UnityEngine.Random.insideUnitCircle * radius;
+            position = new Vector2(start.x, start.y) + UnityEngine.Random.insideUnitCircle * radius;
 
-        } while (Physics.Raycast(Start, (position - Start), (position - Start).magnitude, LayerMask.GetMask("Environment")) || 
+        } while (Physics.Raycast(start, (position - start), (position - start).magnitude, LayerMask.GetMask("Environment")) || 
                 searchCount < searchLimit || 
                 Mathf.Abs(position.y - _startingPosition.y) > _maxVerticalTravel);
             
         return position;
     }
 
-    public void TryAggro(Transform Seagull)
+    public void TryAggro(Transform seagull)
     {
-        Debug.Log($"distance from seagull: {(Seagull.position - transform.position).magnitude}");
-        if ((Seagull.position - transform.position).magnitude <= _aggroRange)
+        if ((seagull.position - transform.position).magnitude <= _aggroRange)
         {
-            Debug.Log($"{_fish.Type} has aggro");
-            _seagullPosition = Seagull;
+            _seagullPosition = seagull;
             State = FishState.Chasing;
         }
     }
