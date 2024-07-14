@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78d7b1d7fa902c04b945d80b6b492304, type: 3}
-  m_Name: Fish0
+  m_Name: BigFish
   m_EditorClassIdentifier: 
   EatValue: 5
-  Type: 0
-  Color: 1
+  Type: 5
+  Color: 0

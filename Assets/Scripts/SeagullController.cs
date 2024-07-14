@@ -18,6 +18,10 @@ public class SeagullController : MonoBehaviour
     public LayerMask fishyMask;
     //internal
 
+
+    [Header("Eating Settings")]
+    [SerializeField] private float _aggroRange = 10f;
+
     [Header("Skyla's section")]
     [Range(0f, 3f)]
     public float Fatness = 0;
@@ -94,12 +98,14 @@ public class SeagullController : MonoBehaviour
             int resultIndex = (int)(angle / 72);
             resultAngle = resultIndex;
             HeadAnimator.SetFloat("Headpos", resultIndex);
-            //HeadSprite.sprite = HeadSprites[resultIndex];
-            //HeadSprite.flipX = (resultIndex == 1 || resultIndex == 3);
-            //if (v.magnitude < EatRadius)
-            //{
-            //    fishy.GetComponent<FishController>().Eat();
-            //}
+            HeadSprite.sprite = HeadSprites[resultIndex];
+            HeadSprite.flipX = (resultIndex == 1 || resultIndex == 3);
+            if (v.magnitude < EatRadius)
+            {
+                fishy.GetComponent<FishController>().Eat();
+
+                Collider[] fishes = Physics.OverlapSphere(Head.position, _aggroRange);
+            }
         }
         
 
