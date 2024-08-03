@@ -44,6 +44,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
+
     private void Start()
     {
         _goalScore = FishController.NumFish;
