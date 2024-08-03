@@ -23,7 +23,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -51,7 +51,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 586872814, guid: d9869ac9ab0a9624ba16d7bf8738ac5f, type: 3}
+      value: {fileID: -1127864039, guid: a4256521b2693a94ea1f62029c36da94, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -83,7 +83,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 586872814, guid: d9869ac9ab0a9624ba16d7bf8738ac5f, type: 3}
+    - {fileID: -1127864039, guid: a4256521b2693a94ea1f62029c36da94, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -111,7 +111,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103

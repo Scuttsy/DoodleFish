@@ -120,7 +120,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 351.5, y: -808}
+        - {x: 201.5, y: -794}
+        - {x: 9.5, y: -665}
+        - {x: 49.5, y: -242}
+        - {x: -228.5, y: 14}
+        - {x: -355.5, y: 105}
+        - {x: -355.5, y: 805}
+        - {x: 354.5, y: 805}
+        - {x: 354.5, y: -22}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -147,25 +156,10 @@ TextureImporter:
         - {x: -242.5, y: -824.4608}
         - {x: -240.61714, y: -867.42957}
         - {x: -219.13277, y: -879}
-        - {x: 56.257843, y: -879}
-        - {x: 242.5, y: -732.66394}
+        - {x: 38.5, y: -879}
+        - {x: 242.5, y: -632}
         - {x: 242.5, y: -66.64836}
-        - {x: 204.69533, y: 99.367256}
-      - - {x: 222.27345, y: -773.67957}
-        - {x: 116.80471, y: -830.3202}
-        - {x: 105.08596, y: -853.7577}
-        - {x: 101.17971, y: -879}
-        - {x: 242.5, y: -879}
-        - {x: 242.5, y: -775.6327}
-        - {x: 235.94533, y: -773.67957}
-      - - {x: 191.02345, y: 818.11725}
-        - {x: 93.36722, y: 773.1954}
-        - {x: 93.36722, y: 402.10162}
-        - {x: 153.9141, y: 339.60162}
-        - {x: 208.60158, y: 339.60162}
-        - {x: 228.13283, y: 353.2735}
-        - {x: 242.5, y: 370.85162}
-        - {x: 242.5, y: 818.11725}
+        - {x: 68.5, y: 332}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -186,7 +180,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 173, y: -1063.5}
+        - {x: -10, y: -912.5}
+        - {x: -161, y: -470.5}
+        - {x: -168, y: -240.5}
+        - {x: -150, y: 178.5}
+        - {x: -347, y: 520.5}
+        - {x: -347, y: 957.5}
+        - {x: -136, y: 1057.5}
+        - {x: 347, y: 1063.5}
+        - {x: 347, y: -1063.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -208,137 +212,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -24.343609, y: -726.242}
-        - {x: -47.78111, y: -726.242}
-        - {x: -73.17173, y: -737.96075}
-        - {x: -88.79673, y: -757.492}
-        - {x: -88.79673, y: -800.46075}
-        - {x: 92.84389, y: -800.46075}
-        - {x: 92.84389, y: -788.742}
-        - {x: 63.547012, y: -763.3514}
       - - {x: -12.624859, y: 800.5}
         - {x: -284.10922, y: 748.36725}
         - {x: -356.37485, y: 480.78915}
-        - {x: -356.37485, y: -128.58582}
-        - {x: 20.578264, y: -646.1639}
+        - {x: -356.5, y: 32.5}
+        - {x: -40.5, y: -63.5}
+        - {x: 28.5, y: -612.5}
         - {x: 227.6095, y: -800.46075}
         - {x: 356.5, y: -800.46075}
         - {x: 356.5, y: -507.49203}
         - {x: 356.5, y: 785.4766}
         - {x: 331.12512, y: 800.5}
-      - - {x: -166.92172, y: -68.03894}
-        - {x: -241.14047, y: -38.742065}
-        - {x: -323.17172, y: -38.742065}
-        - {x: -323.17172, y: -726.242}
-        - {x: -321.2186, y: -757.492}
-        - {x: -205.98422, y: -757.492}
-        - {x: -120.04673, y: -718.4295}
-        - {x: -53.640484, y: -573.8983}
-        - {x: -53.640484, y: -362.9608}
-      - - {x: -0.90610975, y: 222.97667}
-        - {x: -10.671734, y: 230.78917}
-        - {x: -51.68736, y: 230.78917}
-        - {x: -59.49986, y: 234.69542}
-        - {x: -71.218605, y: 236.64854}
-        - {x: -75.124855, y: 240.5548}
-        - {x: -71.218605, y: 248.3673}
-        - {x: -69.26548, y: 254.22667}
-        - {x: -69.26548, y: 260.08606}
-        - {x: -67.312355, y: 262.03918}
-        - {x: -63.406105, y: 277.66418}
-        - {x: -61.45298, y: 279.6173}
-        - {x: -61.45298, y: 293.28918}
-        - {x: -55.59361, y: 299.14856}
-        - {x: -51.68736, y: 297.19543}
-        - {x: -41.921734, y: 297.19543}
-        - {x: -34.109234, y: 305.00793}
-        - {x: -34.109234, y: 306.96106}
-        - {x: -38.015484, y: 310.8673}
-        - {x: -38.015484, y: 316.72668}
-        - {x: -43.87486, y: 322.58603}
-        - {x: -43.87486, y: 324.53915}
-        - {x: -38.015484, y: 334.30478}
-        - {x: -38.015484, y: 342.11728}
-        - {x: -49.734234, y: 351.8829}
-        - {x: -57.546734, y: 351.8829}
-        - {x: -53.640484, y: 357.74228}
-        - {x: -53.640484, y: 371.41415}
-        - {x: -55.59361, y: 375.3204}
-        - {x: -51.68736, y: 377.27353}
-        - {x: -45.827984, y: 383.1329}
-        - {x: -24.343609, y: 383.1329}
-        - {x: -22.390484, y: 381.17978}
-        - {x: -12.624859, y: 381.17978}
-        - {x: -6.7654843, y: 385.08603}
-        - {x: 8.859515, y: 385.08603}
-        - {x: 20.578264, y: 392.89853}
-        - {x: 22.53139, y: 400.71103}
-        - {x: 32.297012, y: 408.52353}
-        - {x: 40.109512, y: 426.10165}
-        - {x: 40.109512, y: 431.96103}
-        - {x: 45.968887, y: 435.86728}
-        - {x: 49.875137, y: 445.6329}
-        - {x: 49.875137, y: 451.49228}
-        - {x: 53.781387, y: 455.39853}
-        - {x: 53.781387, y: 467.11728}
-        - {x: 63.547012, y: 476.8829}
-        - {x: 63.547012, y: 478.83603}
-        - {x: 73.31264, y: 486.64853}
-        - {x: 77.21889, y: 494.46103}
-        - {x: 83.07826, y: 502.27353}
-        - {x: 85.03139, y: 502.27353}
-        - {x: 100.65639, y: 515.94543}
-        - {x: 102.60951, y: 515.94543}
-        - {x: 110.42201, y: 521.8048}
-        - {x: 116.28139, y: 513.9923}
-        - {x: 114.32826, y: 512.0392}
-        - {x: 114.32826, y: 506.17978}
-        - {x: 112.37514, y: 504.22665}
-        - {x: 112.37514, y: 500.3204}
-        - {x: 108.46889, y: 492.5079}
-        - {x: 108.46889, y: 471.02353}
-        - {x: 114.32826, y: 461.2579}
-        - {x: 114.32826, y: 455.39853}
-        - {x: 118.23451, y: 447.58603}
-        - {x: 118.23451, y: 441.72665}
-        - {x: 124.09389, y: 433.91415}
-        - {x: 124.09389, y: 428.05478}
-        - {x: 128.00014, y: 420.24228}
-        - {x: 128.00014, y: 396.80478}
-        - {x: 126.04701, y: 394.85165}
-        - {x: 126.04701, y: 383.1329}
-        - {x: 124.09389, y: 381.17978}
-        - {x: 122.14076, y: 363.60165}
-        - {x: 118.23451, y: 355.78915}
-        - {x: 118.23451, y: 346.02353}
-        - {x: 116.28139, y: 344.0704}
-        - {x: 116.28139, y: 336.2579}
-        - {x: 114.32826, y: 334.30478}
-        - {x: 114.32826, y: 318.6798}
-        - {x: 110.42201, y: 312.82043}
-        - {x: 110.42201, y: 306.96106}
-        - {x: 108.46889, y: 305.00793}
-        - {x: 108.46889, y: 299.14856}
-        - {x: 100.65639, y: 295.2423}
-        - {x: 96.75014, y: 295.2423}
-        - {x: 86.98451, y: 285.47668}
-        - {x: 86.98451, y: 281.57043}
-        - {x: 79.17201, y: 269.85168}
-        - {x: 77.21889, y: 269.85168}
-        - {x: 73.31264, y: 265.94543}
-        - {x: 59.640762, y: 265.94543}
-        - {x: 57.687637, y: 267.89856}
-        - {x: 51.828262, y: 267.89856}
-        - {x: 45.968887, y: 265.94543}
-        - {x: 36.203262, y: 254.22667}
-        - {x: 26.43764, y: 252.27354}
-        - {x: 16.672014, y: 242.50792}
-        - {x: 16.672014, y: 236.64854}
-        - {x: 18.62514, y: 234.69542}
-        - {x: 10.812639, y: 226.88292}
-        - {x: 8.859515, y: 226.88292}
-        - {x: 1.0470152, y: 221.02354}
-        - {x: -4.81236, y: 221.02354}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -359,7 +243,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -242, y: -878.5}
+        - {x: -242, y: 878.5}
+        - {x: 70, y: 878.5}
+        - {x: 77, y: 631.5}
+        - {x: 44, y: 351.5}
+        - {x: 242, y: 42.5}
+        - {x: 242, y: -662.5}
+        - {x: 127, y: -716.5}
+        - {x: 100, y: -878.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -380,7 +273,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 172, y: -1043.5}
+        - {x: -56, y: -845.5}
+        - {x: -159, y: -464.5}
+        - {x: -185, y: 252.5}
+        - {x: -347, y: 532.5}
+        - {x: -347, y: 1063.5}
+        - {x: 347, y: 1063.5}
+        - {x: 347, y: -1063.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -412,27 +313,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_Corals_7
-      rect:
-        serializedVersion: 2
-        x: 1934
-        y: 1334
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12570b53fa407b34d88a235392c80877
-      internalID: 1500806274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: IMG_Sprite_Corals_8
       rect:
         serializedVersion: 2
@@ -443,7 +323,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 76.5, y: -361.5}
+        - {x: -190.5, y: -361.5}
+        - {x: -219.5, y: -131.5}
+        - {x: -314.5, y: -72.5}
+        - {x: -314.5, y: 105.5}
+        - {x: -288.5, y: 240.5}
+        - {x: -207.5, y: 361.5}
+        - {x: 14.5, y: 361.5}
+        - {x: 105.5, y: 231.5}
+        - {x: 314.5, y: 207.5}
+        - {x: 314.5, y: 1.5}
+        - {x: 241.5, y: -102.5}
+        - {x: 144.5, y: -113.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -485,7 +378,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -123, y: -418}
+        - {x: -123, y: 418}
+        - {x: 123, y: 418}
+        - {x: 123, y: 5}
+        - {x: 1, y: -177}
+        - {x: 20, y: -418}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -527,7 +426,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 315.5, y: -57.5}
+        - {x: 256.5, y: -78.5}
+        - {x: 183.5, y: -259.5}
+        - {x: 175.5, y: -361.5}
+        - {x: -22.5, y: -361.5}
+        - {x: -62.5, y: -228.5}
+        - {x: -128.5, y: -128.5}
+        - {x: -315.5, y: -37.5}
+        - {x: -315.5, y: 99.5}
+        - {x: -212.5, y: 214.5}
+        - {x: -5.5, y: 263.5}
+        - {x: 100.5, y: 361.5}
+        - {x: 272.5, y: 361.5}
+        - {x: 315.5, y: 137.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -569,7 +482,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -132.5, y: -384}
+        - {x: -132.5, y: 384}
+        - {x: 38.5, y: 337}
+        - {x: 66.5, y: 90}
+        - {x: 132.5, y: -34}
+        - {x: 132.5, y: -161}
+        - {x: 63.5, y: -306}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -611,7 +531,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 166.5, y: -361.5}
+        - {x: -30.5, y: -361.5}
+        - {x: -107.5, y: -145.5}
+        - {x: -216.5, y: -104.5}
+        - {x: -314.5, y: -12.5}
+        - {x: -314.5, y: 152.5}
+        - {x: 82.5, y: 361.5}
+        - {x: 253.5, y: 361.5}
+        - {x: 255.5, y: 265.5}
+        - {x: 314.5, y: 254.5}
+        - {x: 314.5, y: -138.5}
+        - {x: 204.5, y: -200.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -653,7 +585,23 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 304.5, y: 200.5}
+        - {x: 315.5, y: 99.5}
+        - {x: 315.5, y: -63.5}
+        - {x: 235.5, y: -61.5}
+        - {x: 148.5, y: -361.5}
+        - {x: -35.5, y: -361.5}
+        - {x: -30.5, y: -224.5}
+        - {x: -112.5, y: -137.5}
+        - {x: -280.5, y: -57.5}
+        - {x: -315.5, y: 9.5}
+        - {x: -315.5, y: 140.5}
+        - {x: -219.5, y: 213.5}
+        - {x: -23.5, y: 221.5}
+        - {x: 68.5, y: 361.5}
+        - {x: 239.5, y: 361.5}
+        - {x: 252.5, y: 251.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -695,7 +643,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -22, y: -356.5}
+        - {x: -132, y: -356.5}
+        - {x: -132, y: 356.5}
+        - {x: -44, y: 356.5}
+        - {x: 24, y: 295.5}
+        - {x: 65, y: -26.5}
+        - {x: 132, y: -62.5}
+        - {x: 132, y: -188.5}
+        - {x: 64, y: -317.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -716,7 +673,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -186.5, y: 81}
+        - {x: -113.5, y: 192}
+        - {x: 186.5, y: 192}
+        - {x: 186.5, y: -192}
+        - {x: -186.5, y: -192}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -737,7 +699,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 231.5, y: -127.5}
+        - {x: -231.5, y: -127.5}
+        - {x: -231.5, y: -3.5}
+        - {x: -181.5, y: 127.5}
+        - {x: 231.5, y: 127.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -790,48 +757,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_Corals_25
-      rect:
-        serializedVersion: 2
-        x: 3702
-        y: 565
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4787b69280bfac49be460e0c0bbc418
-      internalID: 976115996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_Corals_26
-      rect:
-        serializedVersion: 2
-        x: 2722
-        y: 519
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dffced9485d69cf4e8a38727ea827ad0
-      internalID: -1296351991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: IMG_Sprite_Corals_27
       rect:
         serializedVersion: 2
@@ -842,7 +767,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -31.5, y: -136}
+        - {x: -105.5, y: 20}
+        - {x: -105.5, y: 136}
+        - {x: 105.5, y: 136}
+        - {x: 105.5, y: -37}
+        - {x: 48.5, y: -136}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -869,27 +800,6 @@ TextureImporter:
       bones: []
       spriteID: 5bf9f29f5e1713f4fabebcf3f90367cd
       internalID: 759066608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_Corals_29
-      rect:
-        serializedVersion: 2
-        x: 1876
-        y: 440
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae86b7231a8e64a4885a4cc8f833b6f4
-      internalID: 973237164
       vertices: []
       indices: 
       edges: []
@@ -947,7 +857,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -185.5, y: -192.5}
+        - {x: -185.5, y: 94.5}
+        - {x: -108.5, y: 192.5}
+        - {x: 185.5, y: 192.5}
+        - {x: 185.5, y: -192.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -968,7 +883,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 134.5, y: -65.5}
+        - {x: 68.5, y: -192.5}
+        - {x: -185.5, y: -192.5}
+        - {x: -185.5, y: 192.5}
+        - {x: 185.5, y: 192.5}
+        - {x: 185.5, y: -6.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -1010,7 +931,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 148.5, y: -61.5}
+        - {x: 96.5, y: -192.5}
+        - {x: -186.5, y: -192.5}
+        - {x: -186.5, y: 192.5}
+        - {x: 186.5, y: 192.5}
+        - {x: 186.5, y: 15.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -1209,6 +1136,52 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1325
+        width: 343
+        height: 819
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81b1d278115aa14a9e2d4ee72900fad
+      internalID: -1265583345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_Sprite_Corals_46
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1313
+        width: 347
+        height: 814
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -143.5, y: -361}
+        - {x: -143.5, y: 394}
+        - {x: 159.5, y: 394}
+        - {x: 151.5, y: -289}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e58db8a3dbe324e85952bbfdae026b
+      internalID: 511116642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1260,6 +1233,8 @@ TextureImporter:
       IMG_Sprite_Corals_42: -948269556
       IMG_Sprite_Corals_43: 1145926485
       IMG_Sprite_Corals_44: -1751108504
+      IMG_Sprite_Corals_45: -1265583345
+      IMG_Sprite_Corals_46: 511116642
       IMG_Sprite_Corals_5: 1849268909
       IMG_Sprite_Corals_6: -756307680
       IMG_Sprite_Corals_7: 1500806274

@@ -11,12 +11,13 @@ public class SeagullController : MonoBehaviour
     [SerializeField] private float _speed = 4f;
     [SerializeField] private Transform _anchorPoint;
 
-    //public
     public bool IsRoaming = true;
     public int HitPoints = 10;
     public int NumFishes = 0;
     public LayerMask fishyMask;
-    //internal
+
+
+    private bool _eating;
 
     [Header("Skyla's section")]
     [Range(0f, 3f)]
@@ -27,8 +28,6 @@ public class SeagullController : MonoBehaviour
     public Transform Head;
     public float LookRadius;
     public float EatRadius;
-    public SpriteRenderer HeadSprite;
-    public List<Sprite> HeadSprites;
 
     public Transform Legs;
     public List<Transform> LegPositions;
@@ -69,14 +68,14 @@ public class SeagullController : MonoBehaviour
         //    Destroy(gameObject);
 
 
-        if (Fatness < 3)
+        if (Fatness < 5)
         {
             int intFatness = Mathf.FloorToInt(Fatness);
             Belly.sprite = BellySprites[intFatness];
-            Legs.transform.position = LegPositions[intFatness].position;
-            Neck.transform.position = NeckPositions[intFatness].position;
-            Wing1.transform.position = Wing1Positions[intFatness].position;
-            Wing2.transform.position = Wing2Positions[intFatness].position;
+            //Legs.transform.position = LegPositions[intFatness].position;
+            //Neck.transform.position = NeckPositions[intFatness].position;
+            //Wing1.transform.position = Wing1Positions[intFatness].position;
+            //Wing2.transform.position = Wing2Positions[intFatness].position;
         }
         else
         {
@@ -85,24 +84,24 @@ public class SeagullController : MonoBehaviour
         //if (transform.position.x < -25 || transform.position.x > 15)
         //    Destroy(gameObject);
 
-        Collider2D fishy = Physics2D.OverlapCircle(Head.transform.position, LookRadius, fishyMask);
-        if (fishy)
-        {
-            Vector2 v = Head.position - fishy.transform.position;
-            float angle = (Mathf.Rad2Deg * Mathf.Atan2(v.y, v.x)) - 72;
-            angle = angle < 0 ? angle + 360 : angle;
-            int resultIndex = (int)(angle / 72);
-            resultAngle = resultIndex;
-            HeadAnimator.SetFloat("Headpos", resultIndex);
-            //HeadSprite.sprite = HeadSprites[resultIndex];
-            //HeadSprite.flipX = (resultIndex == 1 || resultIndex == 3);
-            //if (v.magnitude < EatRadius)
-            //{
-            //    fishy.GetComponent<FishController>().Eat();
-            //}
-        }
-        
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
 
+        
+        Vector2 v = Head.position - mousePos;
+        if(v.magnitude < LookRadius)
+        {
+            float angle = (Mathf.Rad2Deg * Mathf.Atan2(v.y, v.x)) - 60;
+            angle = angle < 0 ? angle + 360 : angle;
+            resultAngle = (int)(angle / 60);
+        } else
+        {
+            resultAngle = 6;
+        }
+        HeadAnimator.SetFloat("Headpos", resultAngle);
+        if (Input.GetMouseButtonDown(0))
+        {
+            HeadAnimator.SetTrigger("Eat");
+        }
 
 
     }
