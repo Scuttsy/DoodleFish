@@ -27,12 +27,12 @@ public class Rope : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.DownArrow) && Time.time > _nextInput)
         {
-            _nextInput = Time.time + 0.5f;
+            _nextInput = Time.time + 0.1f;
             AddLink();
         }
         if (Input.GetKey(KeyCode.UpArrow) && Ropes.Count > 1 && Time.time > _nextInput)
         {
-            _nextInput = Time.time + 0.5f;
+            _nextInput = Time.time + 0.1f;
             RemoveLink();
         }
     }

@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_0
+      name: guts_0
       rect:
         serializedVersion: 2
         x: 813
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_1
+      name: fat_1
       rect:
         serializedVersion: 2
         x: 1583
@@ -152,11 +152,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_2
+      name: fat_2
       rect:
         serializedVersion: 2
-        x: 1956
-        y: 2529
+        x: 1954
+        y: 2531
         width: 426
         height: 433
       alignment: 0
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_3
+      name: fat_3
       rect:
         serializedVersion: 2
         x: 2429
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_4
+      name: seagull_ball
       rect:
         serializedVersion: 2
         x: 3132
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_6
+      name: 1_1
       rect:
         serializedVersion: 2
         x: 151
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_7
+      name: 1_2
       rect:
         serializedVersion: 2
         x: 355
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_8
+      name: 1_0
       rect:
         serializedVersion: 2
         x: 522
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_9
+      name: floaty_3
       rect:
         serializedVersion: 2
         x: 1065
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_10
+      name: fish_0
       rect:
         serializedVersion: 2
         x: 3339
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_11
+      name: fish_1
       rect:
         serializedVersion: 2
         x: 3567
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_12
+      name: fish_2
       rect:
         serializedVersion: 2
         x: 3784
@@ -357,27 +357,6 @@ TextureImporter:
       bones: []
       spriteID: a6b4515a18963cf4d9a46ff478ca6ef8
       internalID: -876238251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_13
-      rect:
-        serializedVersion: 2
-        x: 1306
-        y: 2384
-        width: 240
-        height: 447
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 733170bcc1eee9044aceaa1a1ad6eb17
-      internalID: -478258398
       vertices: []
       indices: 
       edges: []
@@ -425,36 +404,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_17
-      rect:
-        serializedVersion: 2
-        x: 3132
-        y: 2638
-        width: 99
-        height: 136
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ec2413e15664ff469fc2ff32a3cbce4
-      internalID: 983459527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_18
+      name: ui_accept_0
       rect:
         serializedVersion: 2
         x: 3324
         y: 2607
         width: 161
         height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49999848, y: 0.4614698}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,15 +425,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_20
+      name: ui_accept_1
       rect:
         serializedVersion: 2
         x: 3559
         y: 2607
         width: 185
         height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4972762, y: 0.4559653}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,15 +446,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_22
+      name: ui_accept_2
       rect:
         serializedVersion: 2
         x: 3818
         y: 2607
         width: 161
         height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48748514, y: 0.45871755}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,11 +572,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_30
+      name: fat_0
       rect:
         serializedVersion: 2
         x: 1634
-        y: 2360
+        y: 2362
         width: 236
         height: 266
       alignment: 0
@@ -630,27 +588,6 @@ TextureImporter:
       bones: []
       spriteID: 75c4f7ddcd14edc48b856c28bfe45074
       internalID: 1321804332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_31
-      rect:
-        serializedVersion: 2
-        x: 3138
-        y: 2425
-        width: 99
-        height: 166
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c3aadf801cb6ad49a90e130803bff27
-      internalID: -167616532
       vertices: []
       indices: 
       edges: []
@@ -698,7 +635,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_36
+      name: ui_pause_0
       rect:
         serializedVersion: 2
         x: 3323
@@ -719,15 +656,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_37
+      name: ui_pause_1
       rect:
         serializedVersion: 2
         x: 3560
-        y: 2386
-        width: 173
-        height: 164
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 2385
+        width: 194
+        height: 182
+      alignment: 9
+      pivot: {x: 0.45586592, y: 0.4501886}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -740,7 +677,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_39
+      name: ui_pause_2
       rect:
         serializedVersion: 2
         x: 3821
@@ -761,7 +698,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_41
+      name: -1_1
       rect:
         serializedVersion: 2
         x: 189
@@ -769,7 +706,7 @@ TextureImporter:
         width: 105
         height: 123
       alignment: 9
-      pivot: {x: 0.47008404, y: 0.27745688}
+      pivot: {x: 0.4030067, y: 0.30479667}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -782,7 +719,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_42
+      name: -1_2
       rect:
         serializedVersion: 2
         x: 370
@@ -790,7 +727,7 @@ TextureImporter:
         width: 109
         height: 187
       alignment: 9
-      pivot: {x: 0.5205848, y: 0.32002658}
+      pivot: {x: 0.39303756, y: 0.36958975}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -866,49 +803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_47
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 2093
-        width: 351
-        height: 349
-      alignment: 9
-      pivot: {x: 0.26337454, y: 0.8613002}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85780fb068525c1408c754db0c8a78df
-      internalID: 284272110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_48
-      rect:
-        serializedVersion: 2
-        x: 2044
-        y: 2321
-        width: 309
-        height: 178
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2d3780cc75a4f841aae5474530c7e95
-      internalID: 1098773902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_49
+      name: -1_0
       rect:
         serializedVersion: 2
         x: 550
@@ -916,7 +811,7 @@ TextureImporter:
         width: 105
         height: 108
       alignment: 9
-      pivot: {x: 0.4444429, y: 0.31302896}
+      pivot: {x: 0.3717605, y: 0.4139811}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,57 +887,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_53
-      rect:
-        serializedVersion: 2
-        x: 2235
-        y: 1599
-        width: 752
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74584c044fe92ef41bb46c943083878a
-      internalID: 597612521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_54
-      rect:
-        serializedVersion: 2
-        x: 3063
-        y: 2241
-        width: 200
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab94e54ed58230f4896416857ba294b1
-      internalID: 470373128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_55
+      name: ui_quit_0
       rect:
         serializedVersion: 2
         x: 3321
         y: 2171
         width: 160
         height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48426056, y: 0.58393914}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1055,15 +908,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_56
+      name: ui_quit_1
       rect:
         serializedVersion: 2
         x: 3552
         y: 2159
         width: 195
         height: 188
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.47417116, y: 0.5750096}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1076,15 +929,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_57
+      name: ui_quit_2
       rect:
         serializedVersion: 2
         x: 3814
         y: 2171
         width: 162
         height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48134586, y: 0.59326625}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1097,7 +950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_59
+      name: fat_4
       rect:
         serializedVersion: 2
         x: 1491
@@ -1118,28 +971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_60
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 2267
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20688cf58c5aed944bb6ee84258715d7
-      internalID: -605294380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_61
+      name: 0_1
       rect:
         serializedVersion: 2
         x: 187
@@ -1160,7 +992,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_62
+      name: 0_2
       rect:
         serializedVersion: 2
         x: 368
@@ -1202,7 +1034,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_65
+      name: 0_0
       rect:
         serializedVersion: 2
         x: 556
@@ -1223,49 +1055,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_66
-      rect:
-        serializedVersion: 2
-        x: 757
-        y: 1866
-        width: 262
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a6e796504314f7418868cfd1b1bd3f9
-      internalID: -1647826015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_67
-      rect:
-        serializedVersion: 2
-        x: 3063
-        y: 2091
-        width: 200
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98e75ff0a4a789241b36c6611f5ae76f
-      internalID: 789739755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_72
+      name: floaty_1
       rect:
         serializedVersion: 2
         x: 1091
@@ -1286,7 +1076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_73
+      name: volume_3
       rect:
         serializedVersion: 2
         x: 3608
@@ -1307,7 +1097,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_75
+      name: 3_1
       rect:
         serializedVersion: 2
         x: 161
@@ -1328,7 +1118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_76
+      name: 3_2
       rect:
         serializedVersion: 2
         x: 323
@@ -1349,7 +1139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_77
+      name: 3_0
       rect:
         serializedVersion: 2
         x: 530
@@ -1370,7 +1160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_79
+      name: volume_2
       rect:
         serializedVersion: 2
         x: 3355
@@ -1391,7 +1181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_82
+      name: volume_0
       rect:
         serializedVersion: 2
         x: 3050
@@ -1412,7 +1202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_84
+      name: volume_1
       rect:
         serializedVersion: 2
         x: 3152
@@ -1433,7 +1223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_88
+      name: n_0
       rect:
         serializedVersion: 2
         x: 163
@@ -1454,7 +1244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_89
+      name: n_1
       rect:
         serializedVersion: 2
         x: 355
@@ -1475,7 +1265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_90
+      name: n_2
       rect:
         serializedVersion: 2
         x: 542
@@ -1496,7 +1286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_91
+      name: floaty_0
       rect:
         serializedVersion: 2
         x: 728
@@ -1517,7 +1307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_92
+      name: floaty_2
       rect:
         serializedVersion: 2
         x: 1081
@@ -1538,78 +1328,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_93
-      rect:
-        serializedVersion: 2
-        x: 3110
-        y: 1562
-        width: 211
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8d19d9cc6350c143b6b7e16afa3cb38
-      internalID: -1258820393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_95
-      rect:
-        serializedVersion: 2
-        x: 3390
-        y: 1552
-        width: 213
-        height: 234
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5adfa0a834ebc624c83c076e0f8deefc
-      internalID: -1151621938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_97
-      rect:
-        serializedVersion: 2
-        x: 3683
-        y: 1560
-        width: 207
-        height: 222
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7659284f38fd5f4abf437540ae7d865
-      internalID: -361670313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_99
+      name: bitsandbops_0
       rect:
         serializedVersion: 2
         x: 118
         y: 1337
         width: 194
         height: 123
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.8428148, y: 0.21635425}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1622,15 +1349,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_100
+      name: bitsandbops_1
       rect:
         serializedVersion: 2
         x: 364
         y: 1313
         width: 139
         height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.16272433, y: 0.78761566}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1643,15 +1370,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_101
+      name: bitsandbops_2
       rect:
         serializedVersion: 2
         x: 560
         y: 1325
         width: 99
         height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.191643, y: 0.856432}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1664,15 +1391,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_102
+      name: bitsandbops_3
       rect:
         serializedVersion: 2
         x: 730
         y: 1324
         width: 118
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.62935364, y: 0.22743395}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1685,7 +1412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_103
+      name: ui_fill_0
       rect:
         serializedVersion: 2
         x: 1243
@@ -1706,7 +1433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_104
+      name: ui_fill_2
       rect:
         serializedVersion: 2
         x: 1831
@@ -1727,7 +1454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_105
+      name: ui_fill_4
       rect:
         serializedVersion: 2
         x: 2415
@@ -1748,7 +1475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_106
+      name: ui_slider_0
       rect:
         serializedVersion: 2
         x: 2997
@@ -1769,28 +1496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_107
-      rect:
-        serializedVersion: 2
-        x: 664
-        y: 1409
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c63a47c0c4c57594a9b2a1e477eaa57d
-      internalID: 1748202389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_108
+      name: ui_slider_1
       rect:
         serializedVersion: 2
         x: 2997
@@ -1811,7 +1517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_109
+      name: ui_fill_1
       rect:
         serializedVersion: 2
         x: 1243
@@ -1832,7 +1538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_110
+      name: ui_fill_3
       rect:
         serializedVersion: 2
         x: 1831
@@ -1853,7 +1559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_111
+      name: ui_fill_5
       rect:
         serializedVersion: 2
         x: 2414
@@ -1874,7 +1580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_112
+      name: ui_slider_2
       rect:
         serializedVersion: 2
         x: 2997
@@ -1895,15 +1601,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_113
+      name: bitsandbops_4
       rect:
         serializedVersion: 2
         x: 161
         y: 1144
         width: 154
         height: 134
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.8681409, y: 0.670862}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1916,15 +1622,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_114
+      name: bitsandbops_5
       rect:
         serializedVersion: 2
         x: 350
         y: 1148
         width: 149
         height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.41219357, y: 0.30409336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1937,15 +1643,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_115
+      name: bitsandbops_6
       rect:
         serializedVersion: 2
         x: 585
         y: 1136
         width: 64
         height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.34668255, y: 0.8683323}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1958,15 +1664,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_116
+      name: bitsandbops_7
       rect:
         serializedVersion: 2
         x: 730
         y: 1150
         width: 116
         height: 132
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6221855, y: 0.16135754}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1979,7 +1685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_117
+      name: frame
       rect:
         serializedVersion: 2
         x: 1007
@@ -2021,7 +1727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_119
+      name: ui_button_0
       rect:
         serializedVersion: 2
         x: 3001
@@ -2042,7 +1748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_120
+      name: ui_depthmeter
       rect:
         serializedVersion: 2
         x: 3747
@@ -2063,7 +1769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_122
+      name: rope_end
       rect:
         serializedVersion: 2
         x: 530
@@ -2084,11 +1790,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_123
+      name: bitsandbops_8
       rect:
         serializedVersion: 2
         x: 713
-        y: 1056
+        y: 1058
         width: 65
         height: 50
       alignment: 0
@@ -2105,7 +1811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_124
+      name: bitsandbops_9
       rect:
         serializedVersion: 2
         x: 823
@@ -2126,7 +1832,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_126
+      name: Knot
       rect:
         serializedVersion: 2
         x: 181
@@ -2147,7 +1853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_127
+      name: Rope
       rect:
         serializedVersion: 2
         x: 349
@@ -2168,7 +1874,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_130
+      name: bitsandbops_10
       rect:
         serializedVersion: 2
         x: 735
@@ -2189,7 +1895,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_131
+      name: ui_button_1
       rect:
         serializedVersion: 2
         x: 3001
@@ -2210,7 +1916,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_132
+      name: Leg_1
       rect:
         serializedVersion: 2
         x: 181
@@ -2231,7 +1937,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_133
+      name: Leg_2
       rect:
         serializedVersion: 2
         x: 389
@@ -2252,7 +1958,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_134
+      name: Leg_3
       rect:
         serializedVersion: 2
         x: 560
@@ -2273,7 +1979,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_135
+      name: Leg_4
       rect:
         serializedVersion: 2
         x: 698
@@ -2294,7 +2000,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_136
+      name: ui_button_2
       rect:
         serializedVersion: 2
         x: 3081
@@ -2315,7 +2021,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_137
+      name: guts_1
       rect:
         serializedVersion: 2
         x: 153
@@ -2336,7 +2042,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_138
+      name: guts_2
       rect:
         serializedVersion: 2
         x: 364
@@ -2357,7 +2063,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_139
+      name: guts_3
       rect:
         serializedVersion: 2
         x: 552
@@ -2378,7 +2084,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_140
+      name: guts_4
       rect:
         serializedVersion: 2
         x: 690
@@ -2394,27 +2100,6 @@ TextureImporter:
       bones: []
       spriteID: e6a81c7ac08eba74982cc3d6068d26b8
       internalID: 2062316927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_141
-      rect:
-        serializedVersion: 2
-        x: 986
-        y: 604
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 406cfe96cd8afb54f88173d92564635d
-      internalID: 148151113
       vertices: []
       indices: 
       edges: []
@@ -2525,7 +2210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_147
+      name: ui_button_3
       rect:
         serializedVersion: 2
         x: 3081
@@ -2546,7 +2231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_148
+      name: e_2
       rect:
         serializedVersion: 2
         x: 644
@@ -2567,28 +2252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_149
-      rect:
-        serializedVersion: 2
-        x: 806
-        y: 338
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e9a70132800cb1418e05f8c668deccc
-      internalID: 881178751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_150
+      name: e_3
       rect:
         serializedVersion: 2
         x: 810
@@ -2609,11 +2273,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_151
+      name: b_1_1
       rect:
         serializedVersion: 2
         x: 3013
-        y: 296
+        y: 297
         width: 252
         height: 60
       alignment: 0
@@ -2714,7 +2378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_156
+      name: e_1
       rect:
         serializedVersion: 2
         x: 595
@@ -2735,7 +2399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_157
+      name: e_0
       rect:
         serializedVersion: 2
         x: 782
@@ -2756,7 +2420,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_158
+      name: b_1_0
       rect:
         serializedVersion: 2
         x: 3011
@@ -2777,7 +2441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_159
+      name: b_3_1
       rect:
         serializedVersion: 2
         x: 3626
@@ -2882,7 +2546,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_164
+      name: b_2_1
       rect:
         serializedVersion: 2
         x: 3366
@@ -2903,11 +2567,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_165
+      name: b_3_0
       rect:
         serializedVersion: 2
         x: 3615
-        y: 26
+        y: 27
         width: 316
         height: 172
       alignment: 0
@@ -2966,7 +2630,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_168
+      name: b_2_0
       rect:
         serializedVersion: 2
         x: 3355
@@ -3113,7 +2777,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_Sprite_UiSeagulBucketsFloaty_175
+      name: e_4
       rect:
         serializedVersion: 2
         x: 784
@@ -3144,84 +2808,46 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IMG_Sprite_UiSeagulBucketsFloaty_0: -1014438229
-      IMG_Sprite_UiSeagulBucketsFloaty_1: 2423667
-      IMG_Sprite_UiSeagulBucketsFloaty_10: 224350204
-      IMG_Sprite_UiSeagulBucketsFloaty_100: 792075704
-      IMG_Sprite_UiSeagulBucketsFloaty_101: -540334399
-      IMG_Sprite_UiSeagulBucketsFloaty_102: -1991925946
-      IMG_Sprite_UiSeagulBucketsFloaty_103: -823650509
-      IMG_Sprite_UiSeagulBucketsFloaty_104: 1283159835
-      IMG_Sprite_UiSeagulBucketsFloaty_105: 558044573
-      IMG_Sprite_UiSeagulBucketsFloaty_106: -1958394325
+      -1_0: -1212554471
+      -1_1: 89062675
+      -1_2: -1643054591
+      0_0: -1957576380
+      0_1: 1367064874
+      0_2: 378315777
+      1_0: -917704822
+      1_1: 1856378649
+      1_2: 2146409827
+      3_0: -83094140
+      3_1: -1127864039
+      3_2: -2101708694
+      IMG_Sprite_UiSeagulBucketsFloaty_0: 723025390
       IMG_Sprite_UiSeagulBucketsFloaty_107: 1748202389
-      IMG_Sprite_UiSeagulBucketsFloaty_108: 1250009176
-      IMG_Sprite_UiSeagulBucketsFloaty_109: 1131756229
-      IMG_Sprite_UiSeagulBucketsFloaty_11: -1791547581
-      IMG_Sprite_UiSeagulBucketsFloaty_110: 1410817278
-      IMG_Sprite_UiSeagulBucketsFloaty_111: -1243171132
-      IMG_Sprite_UiSeagulBucketsFloaty_112: -1907763736
-      IMG_Sprite_UiSeagulBucketsFloaty_113: 1097469931
-      IMG_Sprite_UiSeagulBucketsFloaty_114: 2002044124
-      IMG_Sprite_UiSeagulBucketsFloaty_115: 1782917528
-      IMG_Sprite_UiSeagulBucketsFloaty_116: 1883175988
-      IMG_Sprite_UiSeagulBucketsFloaty_117: 2069915205
       IMG_Sprite_UiSeagulBucketsFloaty_118: -1161531133
-      IMG_Sprite_UiSeagulBucketsFloaty_119: -1659795065
-      IMG_Sprite_UiSeagulBucketsFloaty_12: -876238251
-      IMG_Sprite_UiSeagulBucketsFloaty_120: -1381901699
       IMG_Sprite_UiSeagulBucketsFloaty_121: 766771185
-      IMG_Sprite_UiSeagulBucketsFloaty_122: 794704031
-      IMG_Sprite_UiSeagulBucketsFloaty_123: -568217176
-      IMG_Sprite_UiSeagulBucketsFloaty_124: -208520725
       IMG_Sprite_UiSeagulBucketsFloaty_125: 1413848325
-      IMG_Sprite_UiSeagulBucketsFloaty_126: 75556211
-      IMG_Sprite_UiSeagulBucketsFloaty_127: -930350216
       IMG_Sprite_UiSeagulBucketsFloaty_128: 754423803
       IMG_Sprite_UiSeagulBucketsFloaty_129: -840661752
       IMG_Sprite_UiSeagulBucketsFloaty_13: -478258398
-      IMG_Sprite_UiSeagulBucketsFloaty_130: -1970628159
-      IMG_Sprite_UiSeagulBucketsFloaty_131: -692395282
-      IMG_Sprite_UiSeagulBucketsFloaty_132: -618211946
-      IMG_Sprite_UiSeagulBucketsFloaty_133: -1524805919
-      IMG_Sprite_UiSeagulBucketsFloaty_134: 270122665
-      IMG_Sprite_UiSeagulBucketsFloaty_135: -1720718690
-      IMG_Sprite_UiSeagulBucketsFloaty_136: 1284336764
-      IMG_Sprite_UiSeagulBucketsFloaty_137: -44469357
-      IMG_Sprite_UiSeagulBucketsFloaty_138: -2146513368
-      IMG_Sprite_UiSeagulBucketsFloaty_139: -589916759
       IMG_Sprite_UiSeagulBucketsFloaty_14: -974151968
-      IMG_Sprite_UiSeagulBucketsFloaty_140: 2062316927
       IMG_Sprite_UiSeagulBucketsFloaty_141: 148151113
       IMG_Sprite_UiSeagulBucketsFloaty_142: -790971334
       IMG_Sprite_UiSeagulBucketsFloaty_143: -1491572500
       IMG_Sprite_UiSeagulBucketsFloaty_144: 546279240
       IMG_Sprite_UiSeagulBucketsFloaty_145: -1207224867
       IMG_Sprite_UiSeagulBucketsFloaty_146: 102319388
-      IMG_Sprite_UiSeagulBucketsFloaty_147: -458041036
-      IMG_Sprite_UiSeagulBucketsFloaty_148: 1784671618
       IMG_Sprite_UiSeagulBucketsFloaty_149: 881178751
       IMG_Sprite_UiSeagulBucketsFloaty_15: -310105115
-      IMG_Sprite_UiSeagulBucketsFloaty_150: -1665096456
-      IMG_Sprite_UiSeagulBucketsFloaty_151: -813857594
       IMG_Sprite_UiSeagulBucketsFloaty_152: -1749794367
       IMG_Sprite_UiSeagulBucketsFloaty_153: -1378434977
       IMG_Sprite_UiSeagulBucketsFloaty_154: -1297859637
       IMG_Sprite_UiSeagulBucketsFloaty_155: -797792336
-      IMG_Sprite_UiSeagulBucketsFloaty_156: -1218850615
-      IMG_Sprite_UiSeagulBucketsFloaty_157: 31951509
-      IMG_Sprite_UiSeagulBucketsFloaty_158: -1260193537
-      IMG_Sprite_UiSeagulBucketsFloaty_159: 921814098
       IMG_Sprite_UiSeagulBucketsFloaty_16: -1561681160
       IMG_Sprite_UiSeagulBucketsFloaty_160: -783401378
       IMG_Sprite_UiSeagulBucketsFloaty_161: 402381963
       IMG_Sprite_UiSeagulBucketsFloaty_162: -1192551092
       IMG_Sprite_UiSeagulBucketsFloaty_163: -1078084407
-      IMG_Sprite_UiSeagulBucketsFloaty_164: 1029341683
-      IMG_Sprite_UiSeagulBucketsFloaty_165: 2070363973
       IMG_Sprite_UiSeagulBucketsFloaty_166: 1807465821
       IMG_Sprite_UiSeagulBucketsFloaty_167: 817746259
-      IMG_Sprite_UiSeagulBucketsFloaty_168: 1904092702
       IMG_Sprite_UiSeagulBucketsFloaty_169: -226787452
       IMG_Sprite_UiSeagulBucketsFloaty_17: 983459527
       IMG_Sprite_UiSeagulBucketsFloaty_170: -882858697
@@ -3229,13 +2855,8 @@ TextureImporter:
       IMG_Sprite_UiSeagulBucketsFloaty_172: -1540711668
       IMG_Sprite_UiSeagulBucketsFloaty_173: 2013685938
       IMG_Sprite_UiSeagulBucketsFloaty_174: -1821820181
-      IMG_Sprite_UiSeagulBucketsFloaty_175: -1035143200
-      IMG_Sprite_UiSeagulBucketsFloaty_18: -1464543813
       IMG_Sprite_UiSeagulBucketsFloaty_19: 43151922
-      IMG_Sprite_UiSeagulBucketsFloaty_2: 1133242655
-      IMG_Sprite_UiSeagulBucketsFloaty_20: 1661169085
       IMG_Sprite_UiSeagulBucketsFloaty_21: 1986459127
-      IMG_Sprite_UiSeagulBucketsFloaty_22: -553993663
       IMG_Sprite_UiSeagulBucketsFloaty_23: -1976677752
       IMG_Sprite_UiSeagulBucketsFloaty_24: 122225209
       IMG_Sprite_UiSeagulBucketsFloaty_25: -1946849503
@@ -3243,83 +2864,127 @@ TextureImporter:
       IMG_Sprite_UiSeagulBucketsFloaty_27: 722611724
       IMG_Sprite_UiSeagulBucketsFloaty_28: -730152661
       IMG_Sprite_UiSeagulBucketsFloaty_29: 1120596805
-      IMG_Sprite_UiSeagulBucketsFloaty_3: -1098018613
-      IMG_Sprite_UiSeagulBucketsFloaty_30: 1321804332
       IMG_Sprite_UiSeagulBucketsFloaty_31: -167616532
       IMG_Sprite_UiSeagulBucketsFloaty_32: 1180413195
       IMG_Sprite_UiSeagulBucketsFloaty_33: 1676187393
       IMG_Sprite_UiSeagulBucketsFloaty_34: -236638158
       IMG_Sprite_UiSeagulBucketsFloaty_35: -686687520
-      IMG_Sprite_UiSeagulBucketsFloaty_36: -1203021023
-      IMG_Sprite_UiSeagulBucketsFloaty_37: 718496749
       IMG_Sprite_UiSeagulBucketsFloaty_38: -1942250414
-      IMG_Sprite_UiSeagulBucketsFloaty_39: 1604873323
-      IMG_Sprite_UiSeagulBucketsFloaty_4: -354595471
       IMG_Sprite_UiSeagulBucketsFloaty_40: 377261300
-      IMG_Sprite_UiSeagulBucketsFloaty_41: 89062675
-      IMG_Sprite_UiSeagulBucketsFloaty_42: -1643054591
       IMG_Sprite_UiSeagulBucketsFloaty_43: 786067712
       IMG_Sprite_UiSeagulBucketsFloaty_44: 515139909
       IMG_Sprite_UiSeagulBucketsFloaty_45: 463697020
       IMG_Sprite_UiSeagulBucketsFloaty_46: 251002400
       IMG_Sprite_UiSeagulBucketsFloaty_47: 284272110
       IMG_Sprite_UiSeagulBucketsFloaty_48: 1098773902
-      IMG_Sprite_UiSeagulBucketsFloaty_49: -1212554471
       IMG_Sprite_UiSeagulBucketsFloaty_5: -775159950
       IMG_Sprite_UiSeagulBucketsFloaty_50: 1564941619
       IMG_Sprite_UiSeagulBucketsFloaty_51: -1162938130
       IMG_Sprite_UiSeagulBucketsFloaty_52: 626735746
       IMG_Sprite_UiSeagulBucketsFloaty_53: 597612521
       IMG_Sprite_UiSeagulBucketsFloaty_54: 470373128
-      IMG_Sprite_UiSeagulBucketsFloaty_55: -437945945
-      IMG_Sprite_UiSeagulBucketsFloaty_56: -1771666790
-      IMG_Sprite_UiSeagulBucketsFloaty_57: -386184296
       IMG_Sprite_UiSeagulBucketsFloaty_58: 573697584
-      IMG_Sprite_UiSeagulBucketsFloaty_59: -1077446759
-      IMG_Sprite_UiSeagulBucketsFloaty_6: 1856378649
       IMG_Sprite_UiSeagulBucketsFloaty_60: -605294380
-      IMG_Sprite_UiSeagulBucketsFloaty_61: 1367064874
-      IMG_Sprite_UiSeagulBucketsFloaty_62: 378315777
       IMG_Sprite_UiSeagulBucketsFloaty_63: 1336037753
       IMG_Sprite_UiSeagulBucketsFloaty_64: -1630333809
-      IMG_Sprite_UiSeagulBucketsFloaty_65: -1957576380
       IMG_Sprite_UiSeagulBucketsFloaty_66: -1647826015
       IMG_Sprite_UiSeagulBucketsFloaty_67: 789739755
       IMG_Sprite_UiSeagulBucketsFloaty_68: 1593734817
       IMG_Sprite_UiSeagulBucketsFloaty_69: 385137091
-      IMG_Sprite_UiSeagulBucketsFloaty_7: 2146409827
       IMG_Sprite_UiSeagulBucketsFloaty_70: 1131223168
       IMG_Sprite_UiSeagulBucketsFloaty_71: 245788579
-      IMG_Sprite_UiSeagulBucketsFloaty_72: -291142946
-      IMG_Sprite_UiSeagulBucketsFloaty_73: 47873558
       IMG_Sprite_UiSeagulBucketsFloaty_74: -2092538708
-      IMG_Sprite_UiSeagulBucketsFloaty_75: -1127864039
-      IMG_Sprite_UiSeagulBucketsFloaty_76: -2101708694
-      IMG_Sprite_UiSeagulBucketsFloaty_77: -83094140
       IMG_Sprite_UiSeagulBucketsFloaty_78: 1613293631
-      IMG_Sprite_UiSeagulBucketsFloaty_79: 1006666077
-      IMG_Sprite_UiSeagulBucketsFloaty_8: -917704822
       IMG_Sprite_UiSeagulBucketsFloaty_80: -158947803
       IMG_Sprite_UiSeagulBucketsFloaty_81: 211780783
-      IMG_Sprite_UiSeagulBucketsFloaty_82: 566932420
       IMG_Sprite_UiSeagulBucketsFloaty_83: 1554746156
-      IMG_Sprite_UiSeagulBucketsFloaty_84: -1303482387
       IMG_Sprite_UiSeagulBucketsFloaty_85: -299301834
       IMG_Sprite_UiSeagulBucketsFloaty_86: -261504650
       IMG_Sprite_UiSeagulBucketsFloaty_87: -1663826641
-      IMG_Sprite_UiSeagulBucketsFloaty_88: -806222242
-      IMG_Sprite_UiSeagulBucketsFloaty_89: -1407404001
-      IMG_Sprite_UiSeagulBucketsFloaty_9: -516532927
-      IMG_Sprite_UiSeagulBucketsFloaty_90: 794665960
-      IMG_Sprite_UiSeagulBucketsFloaty_91: -1920232537
-      IMG_Sprite_UiSeagulBucketsFloaty_92: -1054898943
       IMG_Sprite_UiSeagulBucketsFloaty_93: -1258820393
       IMG_Sprite_UiSeagulBucketsFloaty_94: -1540294777
       IMG_Sprite_UiSeagulBucketsFloaty_95: -1151621938
       IMG_Sprite_UiSeagulBucketsFloaty_96: 1214512184
       IMG_Sprite_UiSeagulBucketsFloaty_97: -361670313
       IMG_Sprite_UiSeagulBucketsFloaty_98: 1511915299
-      IMG_Sprite_UiSeagulBucketsFloaty_99: 93437533
+      Knot: 75556211
+      Leg_1: -618211946
+      Leg_2: -1524805919
+      Leg_3: 270122665
+      Leg_4: -1720718690
+      Rope: -930350216
+      b_1_0: -1260193537
+      b_1_1: -813857594
+      b_2_0: 1904092702
+      b_2_1: 1029341683
+      b_3_0: 2070363973
+      b_3_1: 921814098
+      bitsandbops_0: 93437533
+      bitsandbops_1: 792075704
+      bitsandbops_10: -1970628159
+      bitsandbops_2: -540334399
+      bitsandbops_3: -1991925946
+      bitsandbops_4: 1097469931
+      bitsandbops_5: 2002044124
+      bitsandbops_6: 1782917528
+      bitsandbops_7: 1883175988
+      bitsandbops_8: -568217176
+      bitsandbops_9: -208520725
+      e_0: 31951509
+      e_1: -1218850615
+      e_2: 1784671618
+      e_3: -1665096456
+      e_4: -1035143200
+      fat_0: 1321804332
+      fat_1: 2423667
+      fat_2: 1133242655
+      fat_3: -1098018613
+      fat_4: -1077446759
+      fish_0: 224350204
+      fish_1: -1791547581
+      fish_2: -876238251
+      floaty_0: -1920232537
+      floaty_1: -291142946
+      floaty_2: -1054898943
+      floaty_3: -516532927
+      frame: 2069915205
+      guts_0: -1014438229
+      guts_1: -44469357
+      guts_2: -2146513368
+      guts_3: -589916759
+      guts_4: 2062316927
+      n_0: -806222242
+      n_1: -1407404001
+      n_2: 794665960
+      rope_end: 794704031
+      seagull_ball: -354595471
+      ui_accept_0: -1464543813
+      ui_accept_1: 1661169085
+      ui_accept_2: -553993663
+      ui_button_0: -1659795065
+      ui_button_1: -692395282
+      ui_button_2: 1284336764
+      ui_button_3: -458041036
+      ui_depthmeter: -1381901699
+      ui_fill_0: -823650509
+      ui_fill_1: 1131756229
+      ui_fill_2: 1283159835
+      ui_fill_3: 1410817278
+      ui_fill_4: 558044573
+      ui_fill_5: -1243171132
+      ui_pause_0: -1203021023
+      ui_pause_1: 718496749
+      ui_pause_2: 1604873323
+      ui_quit_0: -437945945
+      ui_quit_1: -1771666790
+      ui_quit_2: -386184296
+      ui_slider_0: -1958394325
+      ui_slider_1: 1250009176
+      ui_slider_2: -1907763736
+      volume_0: 566932420
+      volume_1: -1303482387
+      volume_2: 1006666077
+      volume_3: 47873558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
