@@ -29,9 +29,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8567819584003821217}
+  - {fileID: 8603539292128223920}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &4474046141621616236
@@ -76,8 +77,8 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0.28}
-  m_ConnectedAnchor: {x: 0, y: -0.28}
+  m_Anchor: {x: 0, y: 0.13}
+  m_ConnectedAnchor: {x: 0, y: -0.13}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -113,8 +114,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55806, y: 0.55806, z: 0.55806}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.27903, y: 0.27903, z: 0.27903}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1341380657791543767}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -158,7 +159,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 75556211, guid: a4256521b2693a94ea1f62029c36da94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -170,3 +171,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2527696744352514878
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1341380657791543767}
+    m_Modifications:
+    - target: {fileID: 2199998558574362704, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_Name
+      value: Seagull_new
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02843073
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09313151
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+--- !u!4 &8603539292128223920 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6084864116950835598, guid: 2c770372e37ecd64489be8fcca34004c, type: 3}
+  m_PrefabInstance: {fileID: 2527696744352514878}
+  m_PrefabAsset: {fileID: 0}

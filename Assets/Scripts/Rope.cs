@@ -18,11 +18,6 @@ public class Rope : MonoBehaviour
 
     private float _nextInput = 0;
 
-    private void Start()
-    {
-        GenerateRope();
-    }
-
     private void Update()
     {
         if (Input.GetKey(KeyCode.DownArrow) && Time.time > _nextInput)
@@ -66,29 +61,35 @@ public class Rope : MonoBehaviour
 
     }
 
-    private void GenerateRope()
+    public void GenerateRope()
     {
-        Rigidbody2D prevBod = Hook;
-        for (int i = 0; i < NumOfLinks; i++)
+        if(Ropes.Count == 0)
         {
-            GameObject newPiece = Instantiate(RopePrefab);
-            newPiece.transform.parent = transform;
-            newPiece.transform.position = transform.position;
-            newPiece.transform.GetChild(0).position += Vector3.forward * i * 0.01f;
-            Ropes.Add(newPiece);
-            HingeJoint2D hj = newPiece.GetComponent<HingeJoint2D>();
-            hj.connectedBody = prevBod;
-            if (Hook == prevBod)
-                Top = hj;
+            Rigidbody2D prevBod = Hook;
+            for (int i = 0; i < NumOfLinks; i++)
+            {
+                GameObject newPiece = Instantiate(RopePrefab);
+                newPiece.transform.parent = transform;
+                newPiece.transform.position = transform.position;
+                newPiece.transform.GetChild(0).position += Vector3.forward * i * 0.01f;
+                Ropes.Add(newPiece);
+                HingeJoint2D hj = newPiece.GetComponent<HingeJoint2D>();
+                hj.connectedBody = prevBod;
+                if (Hook == prevBod)
+                    Top = hj;
 
-            prevBod = newPiece.GetComponent<Rigidbody2D>();
+                prevBod = newPiece.GetComponent<Rigidbody2D>();
+            }
+            GameObject knot = Instantiate(KnotPrefab);
+            knot.transform.parent = transform;
+            knot.transform.position = transform.position;
+            Ropes.Add(knot);
+            knot.GetComponent<HingeJoint2D>().connectedBody = prevBod;
+            Camera.main.GetComponent<CameraController>().enabled = true;
+            Camera.main.GetComponent<CameraController>()._currentGull = knot.transform;
+
+            Ropes.Reverse();
         }
-        GameObject knot = Instantiate(KnotPrefab);
-        knot.transform.parent = transform;
-        knot.transform.position = transform.position;
-        Ropes.Add(knot);
-        knot.GetComponent<HingeJoint2D>().connectedBody = prevBod;
-
-        Ropes.Reverse();
+        
     }
 }
