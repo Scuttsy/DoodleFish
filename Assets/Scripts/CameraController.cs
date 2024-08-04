@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour
     }
 
     public Transform _currentGull; //currently tracked seagull
-    public static state CameraState = state.Cannon;
+    public static state CameraState = state.Seagull;
     
     [Header("CameraControl")]
     [Range(0.01f, 1f)]
